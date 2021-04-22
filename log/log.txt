@@ -1,0 +1,120 @@
+Fault: 29-01-2021 21:38:50 - Method core\admin\controller\IndexController::request() does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 38
+
+Fault: 12-03-2021 23:18:54 - Отсутствуют маршруты в базовых настройках
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\RouteController.php
+In line 28
+
+Fault: 12-03-2021 23:19:18 - Отсутствуют маршруты в базовых настройках
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\RouteController.php
+In line 28
+
+Fault: 12-03-2021 23:19:19 - Отсутствуют маршруты в базовых настройках
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\RouteController.php
+In line 28
+
+Fault: 14-03-2021 0:40:47 - Отсутствует шаблон: core/admin/view/show
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 91
+
+Fault: 28-03-2021 19:47:20 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 19:47:31 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 19:47:38 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 19:48:12 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 19:48:13 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 19:48:17 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 19:48:20 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 19:48:25 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 28-03-2021 20:11:46 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 29-03-2021 21:35:51 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 29-03-2021 21:35:51 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 30-03-2021 21:52:54 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 31-03-2021 21:54:02 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 06-04-2021 21:41:15 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 07-04-2021 20:22:24 - Отсутствует шаблон: core/admin/view/add
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 93
+
+Fault: 14-04-2021 21:03:54 - Не верное имя файла для подключения: core/user/controller/UserfilesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 32
+
+Fault: 14-04-2021 21:03:54 - Class core\user\controller\UserfilesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 45
+
+Fault: 14-04-2021 21:09:23 - Не верное имя файла для подключения: core/user/controller/UserfilesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 32
+
+Fault: 14-04-2021 21:09:23 - Class core\user\controller\UserfilesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 45
+
+Fault: 14-04-2021 21:26:16 - Не верное имя файла для подключения: core/user/controller/UserfilesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 32
+
+Fault: 14-04-2021 21:26:16 - Class core\user\controller\UserfilesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 45
+
+Fault: 15-04-2021 21:24:51 - Не верное имя файла для подключения: core/user/controller/UserfilesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 32
+
+Fault: 15-04-2021 21:24:51 - Class core\user\controller\UserfilesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 45
+
+Fault: 22-04-2021 20:28:24 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 45
+
+Fault: 22-04-2021 20:31:03 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 45
+

@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !favicon.icon
+
+RewriteCond %{REQUEST_URI} !^.*\.(jpg|css|js|gif|png)$ [NC]
+RewriteRule .* index.php [L]
+
+php_flag magic_quotes_qpc off
+AddDefaultCharset utf-8
+DirectoryIndex index.php

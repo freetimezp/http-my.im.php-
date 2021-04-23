@@ -41,6 +41,8 @@ class Settings
 
     private $expansion = 'core/admin/expansion/';
 
+    private $messages = 'core/base/messages/';
+
     private $defaultTable = 'teachers';
 
     private $formTemplates = PATH . 'core/admin/view/include/form_templates/';
@@ -52,7 +54,7 @@ class Settings
 
     private $templateArr = [
         'text' => ['name'],
-        'textarea' => ['content'],
+        'textarea' => ['keywords', 'content'],
         'radio' => ['visible'],
         'select' => ['menu_position', 'parent_id'],
         'img' => ['img'],
@@ -60,9 +62,8 @@ class Settings
     ];
 
     private $translate = [
-        'name' => [
-            'Название', 'Не более 100 символов'
-        ],
+        'name' => ['Название', 'Не более 100 символов'],
+        'keywords' => ['Ключевые слова', 'Не более 70 символов'],
         'content' => []
     ];
 

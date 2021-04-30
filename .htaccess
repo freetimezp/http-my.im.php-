@@ -1,5 +1,7 @@
 RewriteEngine on
 
+php_value upload_max_filesize 100M
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !favicon.icon
 

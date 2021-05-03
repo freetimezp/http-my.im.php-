@@ -1,3 +1,0 @@
-Fault: 03-05-2021 16:35:04 - Не корректная ссылка при парсинге - https://kraft.net.ua//kraft.net.ua
-Fault: 03-05-2021 16:35:04 - Не корректная ссылка при парсинге - https://kraft.net.ua//kraft.net.ua
-Fault: 03-05-2021 16:35:05 - Не корректная ссылка при парсинге - https://kraft.net.ua//kraft.net.ua

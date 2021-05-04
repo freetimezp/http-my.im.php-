@@ -23,6 +23,10 @@ class CreatesitemapController extends BaseAdmin
             $this->redirect();
         }
 
+        if($this->userId) { $this->execBase(); }
+
+        if(!$this->checkParsingTable()) { return false; }
+
         set_time_limit(0);
 
         if(file_exists($_SERVER['DOCUMENT_ROOT'] . PATH . 'log/' . $this->parsingLogFile)) {
@@ -83,7 +87,7 @@ class CreatesitemapController extends BaseAdmin
                         $ext = addslashes($ext);
                         $ext = str_replace('.', '\.', $ext);
 
-                        if(preg_match('/' . $ext . '\s*?$/ui', $link)) {
+                        if(preg_match('/' . $ext . '\s*?$|\?[^\/]/ui', $link)) {
                             continue 2;
                         }
                     }
@@ -107,8 +111,6 @@ class CreatesitemapController extends BaseAdmin
     }
 
     protected function filter($link) {
-        $link = 'https://google.com/ord/id?order=ASC&amp;Masha=111';
-
         if($this->filterArr) {
             foreach ($this->filterArr as $type => $values) {
                 if($values) {
@@ -116,7 +118,7 @@ class CreatesitemapController extends BaseAdmin
                         $item = str_replace('/', '\/', addslashes($item));
 
                         if($type === 'url') {
-                            if(preg_match('/' . $item . '.*[\?|$]/ui', $link)) {
+                            if(preg_match('/^[^\?]*' . $item . '/ui', $link)) {
                                 return false;
                             }
                         }
@@ -129,6 +131,22 @@ class CreatesitemapController extends BaseAdmin
                     }
                 }
             }
+        }
+
+        return true;
+    }
+
+    protected function checkParsingTable() {
+        $tables = $this->model->showTables();
+
+        if(!in_array('parsing_data', $tables)) {
+            $query = 'CREATE TABLE parsing_data (all_links text, temp_links text)';
+
+            if(!$this->model->query($query, 'c') ||
+                !$this->model->add('parsing_data', [
+                    'fields' => ['all_links' => '', 'temp_links' => '']
+                ])
+            ) { return false; }
         }
 
         return true;

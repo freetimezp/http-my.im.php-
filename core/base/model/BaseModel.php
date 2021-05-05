@@ -3,6 +3,7 @@
 namespace core\base\model;
 
 use core\base\exceptions\DbException;
+use core\base\model\BaseModelMethods;
 
 //$res = $db->get($table, [
 //    'fields' => ['id', 'name'],

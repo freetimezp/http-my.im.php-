@@ -310,3 +310,7 @@ Fault: 10-04-2021 21:28:50 - Ошибка в SQL запросе: INSERT INTO tea
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 69
 
+Fault: 04-05-2021 22:56:09 - Ошибка в SQL запросе: SHOW TABLES - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

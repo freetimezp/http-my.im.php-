@@ -97,14 +97,52 @@ class CreatesitemapController extends BaseAdmin
         $this->redirect();
     }
 
-    protected function parsing($url, $index = 0) {
-        $curl = curl_init();
+    protected function parsing($urls) {
+        if(!$urls) { return; }
 
-        curl_setopt($curl, CURLOPT_URL, $url);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($curl, CURLOPT_HEADER, true);
-        curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
-        curl_setopt($curl, CURLOPT_TIMEOUT, 120);
+        $curlMulty = curl_multi_init();
+        $curl = [];
+
+        foreach ($urls as $i => $url) {
+            $curl[$i] = curl_init();
+
+            curl_setopt($curl[$i], CURLOPT_URL, $url);
+            curl_setopt($curl[$i], CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl[$i], CURLOPT_HEADER, true);
+            curl_setopt($curl[$i], CURLOPT_FOLLOWLOCATION, 1);
+            curl_setopt($curl[$i], CURLOPT_TIMEOUT, 120);
+            curl_setopt($curl[$i], CURLOPT_ENCODING, 'gzip,deflate');
+
+            curl_multi_add_handle($curlMulty, $curl[$i]);
+        }
+
+        do {
+            $status = curl_multi_exec($curlMulty, $active);
+            $info = curl_multi_info_read($curlMulty);
+
+            if(false !== $info) {
+                if($info['result'] !== 0) {
+                    $i = array_search($info['handle'], $curl);
+
+                    $error = curl_errno($curl[$i]);
+                    $message = curl_error($curl[$i]);
+                    $header = curl_getinfo($curl[$i]);
+
+                    if($error != 0) {
+                        $this->cancel(0, 'Error loading '
+                            . $header['url'] . 'http code: ' . $header['http_code']
+                            . ' error: ' . $error . ' message: ' . $message);
+                    }
+                }
+            }
+
+            if($status > 0) {
+                $this->cancel(0, curl_multi_strerror($status));
+            }
+        } while ($status === CURLM_CALL_MULTI_PERFORM || $active);
+
+
+
         curl_setopt($curl, CURLOPT_RANGE, 0 - 4194304);
 
         $out = curl_exec($curl);

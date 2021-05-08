@@ -1,0 +1,7 @@
+Fault: 08-05-2021 17:35:43 - Incorrect content type https://i.ua
+Fault: 08-05-2021 17:37:30 - Incorrect server code https://kraft.net.ua//kraft.net.ua
+Fault: 08-05-2021 17:37:53 - Incorrect server code https://kraft.net.ua/upload/metodicheskie-materialy-po-kursu-1s.php
+Fault: 08-05-2021 17:39:40 - Incorrect server code https://kraft.net.ua//kraft.net.ua
+Fault: 08-05-2021 17:40:00 - Incorrect server code https://kraft.net.ua/upload/metodicheskie-materialy-po-kursu-1s.php
+Fault: 08-05-2021 17:40:53 - Incorrect server code https://kraft.net.ua//kraft.net.ua
+Fault: 08-05-2021 17:41:07 - Incorrect server code https://kraft.net.ua/upload/metodicheskie-materialy-po-kursu-1s.php

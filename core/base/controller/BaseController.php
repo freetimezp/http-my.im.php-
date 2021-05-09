@@ -27,6 +27,8 @@ abstract class BaseController
     protected $scripts;
 
     protected $userId;
+    protected $data;
+
 
     public function route() {
         $controller = str_replace('/', '\\', $this->controller);

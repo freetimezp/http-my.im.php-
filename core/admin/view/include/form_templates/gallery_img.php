@@ -23,7 +23,7 @@
                 <?php $this->data[$row] = json_decode($this->data[$row]); ?>
                 <?php foreach ($this->data[$row] as $item): ?>
                     <div class="vg-dotted-square vg-center">
-                        <img class="vg_delete" src="<?=PATH , UPLOAD_DIR . $item?>">
+                        <img class="vg_delete" src="<?=PATH . UPLOAD_DIR . $item?>">
                     </div>
                 <?php endforeach; ?>
                 <?php for($i = 0; $i < 2; $i++) {

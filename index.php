@@ -13,8 +13,6 @@ use core\base\controller\BaseRoute;
 use core\base\exceptions\RouteException;
 use core\base\exceptions\DbException;
 
-if($_POST) exit('AJAX');
-
 try {
     BaseRoute::routeDirection();
 }

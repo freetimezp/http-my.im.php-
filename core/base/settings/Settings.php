@@ -13,9 +13,7 @@ class Settings
             'alias' => 'admin',
             'path' => 'core/admin/controller/',
             'hrUrl' => false,
-            'routes' => [
-
-            ]
+            'routes' => []
         ],
         'settings' => [
             'path' => 'core/base/settings/'

@@ -14,6 +14,6 @@
             const ADMIN_MODE = 1;
         </script>
             
-        <?php $this->getScripts() ?>
+        <?php $this->getScripts(); ?>
     </body>
 </html>

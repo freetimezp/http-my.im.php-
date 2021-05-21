@@ -314,3 +314,11 @@ Fault: 04-05-2021 22:56:09 - Ошибка в SQL запросе: SHOW TABLES - 0
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 22-05-2021 0:10:09 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.name as student_name as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('42','43')    - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id ' at line 1
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 22-05-2021 0:10:41 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.name as student_name as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('42','43')    - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id ' at line 1
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

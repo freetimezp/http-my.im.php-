@@ -16,17 +16,21 @@ class IndexController extends BaseController {
             'where' => ['id' => '42,43'],
             'operand' => ['IN'],
             'join' => [
-                'goods_filters' => ['on' => ['id', 'teachers']],
+                'goods_filters' => [
+                    'fields' => null,
+                    'on' => ['id', 'teachers']
+                ],
                 'filters f' => [
                     'fields' => ['name as student_name', 'content'],
                     'on' => ['students', 'id']
                 ],
-                [
-                    'table' => 'filters',
+                'filters' => [
                     'on' => ['parent_id', 'id']
                 ]
             ],
-            'join_structure' => true
+            'join_structure' => true,
+            'order' => ['id'],
+            'order_direction' => ['DESC']
         ]);
 
         exit;

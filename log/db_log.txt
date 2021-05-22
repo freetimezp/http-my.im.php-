@@ -322,3 +322,31 @@ Fault: 22-05-2021 0:10:41 - Ошибка в SQL запросе: SELECT teachers.
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 22-05-2021 15:28:10 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.filters=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 22-05-2021 15:28:34 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.filters=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 22-05-2021 15:29:01 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.students=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 22-05-2021 15:29:02 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.students=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 22-05-2021 15:29:03 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.students=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 22-05-2021 15:35:28 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters ON goods_filters.students=filters.id LEFT JOIN filters ON filters.parent_id=filters.id WHERE goods.id IN ('42','43')    - 1066 Not unique table/alias: 'filters'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 22-05-2021 15:45:22 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters f - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'f' at line 1
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

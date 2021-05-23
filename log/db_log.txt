@@ -426,3 +426,7 @@ Fault: 22-05-2021 19:25:59 - Ошибка в SQL запросе: SELECT goods.*,
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 23-05-2021 14:38:05 - Ошибка в SQL запросе: SHOW COLUMNS FROM teachers - 1146 Table 'im.teachers' doesn't exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

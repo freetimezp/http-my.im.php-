@@ -2442,3 +2442,63 @@ Fault: 23-05-2021 17:32:11 - Class core\user\controller\Favicon.icoController do
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
 In line 47
 
+Fault: 24-05-2021 19:44:40 - Не найден шаблон :C:/openserver/OSPanel/domains/my.im.php/public_html/core/admin/view/include/form_templates/checkboxlist.php
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\admin\view\add.php
+In line 43
+
+Fault: 24-05-2021 19:44:40 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 19:44:45 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 19:44:59 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 19:45:01 - Не найден шаблон :C:/openserver/OSPanel/domains/my.im.php/public_html/core/admin/view/include/form_templates/checkboxlist.php
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\admin\view\add.php
+In line 43
+
+Fault: 24-05-2021 19:45:01 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 19:45:02 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 20:36:49 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 20:42:34 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 20:46:23 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 20:48:48 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 20:59:02 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 21:41:01 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 21:42:34 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+
+Fault: 24-05-2021 21:48:55 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 47
+

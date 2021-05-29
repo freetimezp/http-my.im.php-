@@ -434,3 +434,23 @@ Fault: 24-05-2021 20:36:49 - Ошибка в SQL запросе: SELECT filters.
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 29-05-2021 14:03:45 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 29-05-2021 14:06:14 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 29-05-2021 14:07:50 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 29-05-2021 14:07:52 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 29-05-2021 14:08:09 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

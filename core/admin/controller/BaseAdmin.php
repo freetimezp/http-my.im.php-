@@ -299,8 +299,11 @@ abstract class BaseAdmin extends BaseController
         }
 
         $this->createFile();
+
         $this->createAlias($id);
+
         $this->updateMenuPosition();
+
         $except = $this->checkExceptFields();
 
         $res_id = $this->model->$method($this->table, [
@@ -318,6 +321,8 @@ abstract class BaseAdmin extends BaseController
             $answerSuccess = $this->messages['editSuccess'];
             $answerFail = $this->messages['editFail'];
         }
+
+        $this->checkManyToMany();
 
         $this->expansion(get_defined_vars());
 
@@ -341,7 +346,7 @@ abstract class BaseAdmin extends BaseController
 
         $except = [];
 
-        if(!$arr) {
+        if($arr) {
             foreach ($arr as $key => $item) {
                 if(!$this->columns[$key]) {
                     $except[] = $key;
@@ -656,6 +661,57 @@ abstract class BaseAdmin extends BaseController
         }
 
 
+    }
+
+    protected function checkManyToMany($settings = false) {
+        if(!$settings) { $settings = $this->settings ?: Settings::instance(); }
+        $manyToMany = $settings::get('manyToMany');
+
+        if($manyToMany) {
+            foreach ($manyToMany as $mTable => $tables) {
+                $targetKey = array_search($this->table, $tables);
+
+                if($targetKey !== false) {
+                    $otherKey = $targetKey ? 0 : 1;
+
+                    $checkboxlist = $settings::get('templateArr')['checkboxlist'];
+
+                    if(!$checkboxlist || !in_array($tables[$otherKey], $checkboxlist)) { continue; }
+
+                    $columns = $this->model->showColumns($tables[$otherKey]);
+
+                    $targetRow = $this->table . '_' . $this->columns['id_row'];
+
+                    $otherRow = $tables[$otherKey] . '_' . $columns['id_row'];
+
+                    $this->model->delete($mTable, [
+                        'where' => [$targetRow => $_POST[$this->columns['id_row']]]
+                    ]);
+
+                    if($_POST[$tables[$otherKey]]) {
+                        $insertArr = [];
+                        $i = 0;
+
+                        foreach ($_POST[$tables[$otherKey]] as $value) {
+                            foreach ($value as $item) {
+                                if($item) {
+                                    $insertArr[$i][$targetRow] = $_POST[$this->columns['id_row']];
+                                    $insertArr[$i][$otherRow] = $item;
+
+                                    $i++;
+                                }
+                            }
+                        }
+
+                        if($insertArr) {
+                            $this->model->add($mTable, [
+                                'fields' => $insertArr
+                            ]);
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

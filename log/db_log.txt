@@ -1,456 +1,121 @@
-Fault: 04-02-2021 20:20:50 - Ошибка подключение к базе данных: 1049 Unknown database 'im1'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 19
-
-Fault: 04-02-2021 20:45:59 - Ошибка в SQL запросе: SELECT * FROM articles1 - 1146 Table 'im.articles1' doesn't exist
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 31
-
-Fault: 11-02-2021 20:06:07 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name FROM teachers   ORDER BY teachers.fio ASC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 31
-
-Fault: 13-02-2021 21:09:04 - Ошибка подключение к базе данных: 2002 ����������� �� �����������, �.�. �������� ��������� ������ ������ �� �����������.
-
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 19
-
-Fault: 15-02-2021 22:24:59 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON teachers.id=join_table2.parent_id WHERE teachers.name IN ('Masha') AND teachers.surname LIKE 'Sergeevna%' OR teachers.fio<>'Andrey' OR teachers.car='Porshe' OR teachers.color NOT IN ('red','blue','black') AND join_table1.name='Sasha' AND join_table2.name<>'Sasha'  ORDER BY 1 DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 31
-
-Fault: 15-02-2021 22:26:33 - Ошибка в SQL запросе: SELECT teachers.id,teachers.name,join_table1.id as j_id,join_table1.name as j_name,join_table2.id as j2_id,join_table2.name as j2_name FROM teachers LEFT JOIN join_table1 ON teachers.id=join_table1.parent_id LEFT JOIN join_table2 ON teachers.id=join_table2.parent_id WHERE teachers.name IN ('Masha') AND teachers.surname LIKE 'Sergeevna%' OR teachers.fio<>'Andrey' OR teachers.car='Porshe' OR teachers.color NOT IN ('red','blue','black') AND join_table1.name='Sasha' AND join_table2.name<>'Sasha'  ORDER BY 1 DESC,teachers.name DESC 1 - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 31
-
-Fault: 16-02-2021 21:08:34 - Ошибка подключение к базе данных: 2002 ����������� �� �����������, �.�. �������� ��������� ������ ������ �� �����������.
-
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 53
-
-Fault: 17-02-2021 22:38:17 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img,) VALUES ('Olga','Hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg',) - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('Olga','Hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg',)' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:42:02 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:44:15 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:45:02 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:45:03 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:45:04 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:45:05 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:45:33 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:49:57 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:51:58 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:51:58 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:55:24 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:59:29 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 22:59:31 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:20 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:22 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:23 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:24 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:25 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:26 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:34 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:01:51 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Olga','Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 17-02-2021 23:10:01 - Ошибка в SQL запросе: INSERT INTO teachers (content,gallery_img,img) VALUES ('Hello','[\"red\'\'.jpg\",\"blue.jpg\",\"black.jpg\"]','main_img.jpg') - 1364 Field 'name' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:27:34 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:27:56 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:27:57 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:28:06 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello') - 1364 Field 'img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:28:59 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:30:08 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:31:44 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'gallery_img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:31:45 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'gallery_img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:34:01 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya1','Hello1') - 1364 Field 'gallery_img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:34:16 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya','Hello1') - 1364 Field 'gallery_img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 20-02-2021 21:39:59 - Ошибка в SQL запросе: INSERT INTO teachers (name,content) VALUES ('Katya','Hello1') - 1364 Field 'gallery_img' doesn't have a default value
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 17:53:21 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content -0','2') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content -0','2')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 17:55:10 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content - 0','3') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content - 0','3')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 18:07:55 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content - 0','4') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content - 0','4')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 18:08:29 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content - 0','5') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content - 0','5')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 18:08:30 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content - 0','6') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content - 0','6')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 18:08:31 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content - 0','7') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content - 0','7')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 18:08:31 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content - 0','8') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content - 0','8')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 18:17:40 - Ошибка в SQL запросе: INSERT INTO teachers (name,content,student id) VALUES ('teacher - 0','content - 0','9') - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id) VALUES ('teacher - 0','content - 0','9')' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 18:32:31 - Ошибка в SQL запросе: UPDATE teachers SET name=,img= WHERE teachers.id='1'  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'img= WHERE teachers.id='1'' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 22:20:49 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 22:22:24 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 22:22:26 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 06-03-2021 22:22:57 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 73
-
-Fault: 29-03-2021 22:15:30 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = im AND TABLE_NAME = articles
-                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null' at line 3
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:16:36 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles'
-                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null' at line 3
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:16:39 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles'
-                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null' at line 3
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:16:40 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles'
-                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null' at line 3
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:16:41 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles'
-                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null' at line 3
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:18:27 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles' AND
-                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null - 1054 Unknown column 'TABLE_SCHEME' in 'where clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:18:56 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles' AND
-                  CONSTRAINT_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null - 1054 Unknown column 'TABLE_SCHEME' in 'where clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:18:59 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles' AND
-                  CONSTRAINT_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null - 1054 Unknown column 'TABLE_SCHEME' in 'where clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:20:28 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles' AND
-                  CONSTRAINT_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null - 1054 Unknown column 'TABLE_SCHEME' in 'where clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:20:29 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles' AND
-                  CONSTRAINT_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null - 1054 Unknown column 'TABLE_SCHEME' in 'where clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 29-03-2021 22:20:29 - Ошибка в SQL запросе: SELECT * FROM information_schema.KEY_COLUMN_USAGE 
-                  WHERE TABLE_SCHEME = 'im' AND TABLE_NAME = 'articles' AND
-                  CONSTRAINT_NAME <> 'PRIMERY' AND REFERENCED_TABLE_NAME is not null - 1054 Unknown column 'TABLE_SCHEME' in 'where clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 68
-
-Fault: 06-04-2021 21:48:53 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 69
-
-Fault: 06-04-2021 21:49:35 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 69
-
-Fault: 06-04-2021 21:49:37 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 69
-
-Fault: 06-04-2021 21:52:28 - Ошибка в SQL запросе: SHOW COLUMNS FROM  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 69
-
-Fault: 10-04-2021 21:00:22 - Ошибка в SQL запросе: INSERT INTO teachers ( VALUES  - 2006 MySQL server has gone away
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 69
-
-Fault: 10-04-2021 21:25:00 - Ошибка в SQL запросе: INSERT INTO teachers (name,img,menu_position) VALUES ('Lena','2.jpg','1'),('Nataly','3.jpg',NULL,NULL) - 1136 Column count doesn't match value count at row 2
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 69
-
-Fault: 10-04-2021 21:28:50 - Ошибка в SQL запросе: INSERT INTO teachers (name,menu_position) VALUES (NULL,NULL,'11.jpg') - 1136 Column count doesn't match value count at row 1
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 69
-
-Fault: 04-05-2021 22:56:09 - Ошибка в SQL запросе: SHOW TABLES - 0 
+Fault: 30-05-2021 19:50:42 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('12ффывфы','1','1','','','',NOW(),NOW(),'12ffyvfy') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 0:10:09 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.name as student_name as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('42','43')    - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id ' at line 1
+Fault: 30-05-2021 19:50:50 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('фывфыв12','1','1','','','',NOW(),NOW(),'fyvfyv12') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 0:10:41 - Ошибка в SQL запросе: SELECT teachers.*,stud_teach.students as TABLEstud_teachTABLE_students,stud_teach.teachers as TABLEstud_teachTABLE_teachers,students.name as student_name as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id FROM teachers LEFT JOIN stud_teach ON teachers.id=stud_teach.teachers LEFT JOIN students ON stud_teach.students=students.id WHERE teachers.id IN ('42','43')    - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as TABLEstudentsTABLE_name as student_name,students.id as TABLEstudentsTABLE_id ' at line 1
+Fault: 30-05-2021 19:52:51 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('фывфыв12','1','1','','','',NOW(),NOW(),'fyvfyv12') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 15:28:10 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.filters=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+Fault: 01-06-2021 18:38:58 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('фывфыв12','1','1','','','',NOW(),NOW(),'fyvfyv12') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 15:28:34 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.filters=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+Fault: 01-06-2021 19:52:26 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('1234567','1','1','','','',NOW(),NOW(),'1234567') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 15:29:01 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.students=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+Fault: 01-06-2021 19:52:43 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('1234','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 15:29:02 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.students=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+Fault: 01-06-2021 19:54:20 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('12345','1','1','','','',NOW(),NOW(),'12345') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 15:29:03 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.goods LEFT JOIN filters ON goods_filters.students=filters.id WHERE goods.id IN ('42','43')    - 1054 Unknown column 'goods_filters.goods' in 'on clause'
+Fault: 01-06-2021 19:54:41 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('12345','1','1','','','',NOW(),NOW(),'12345') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 15:35:28 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,filters.name as TABLEfiltersTABLE_student_name,filters.content as TABLEfiltersTABLE_content,filters.id as TABLEfiltersTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters ON goods_filters.students=filters.id LEFT JOIN filters ON filters.parent_id=filters.id WHERE goods.id IN ('42','43')    - 1066 Not unique table/alias: 'filters'
+Fault: 01-06-2021 19:57:47 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 2006 MySQL server has gone away
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 15:45:22 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters f - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'f' at line 1
+Fault: 01-06-2021 20:08:27 - Ошибка в SQL запросе: SELECT goods.alias FROM goods  WHERE goods.alias='12345'   LIMIT 1 - 2006 MySQL server has gone away
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:22:25 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods_filters - 2006 MySQL server has gone away
+Fault: 01-06-2021 20:10:21 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('12345','1','1','','','',NOW(),NOW(),'12345') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:36:04 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN filters f ON goods.students=Array.id LEFT JOIN filters ON f.parent_id=Array.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1054 Unknown column 'goods.students' in 'on clause'
+Fault: 01-06-2021 20:25:30 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:40:23 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN filters f ON goods.students=goods.id LEFT JOIN filters ON f.parent_id=goods.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1054 Unknown column 'goods.students' in 'on clause'
+Fault: 02-06-2021 19:25:24 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('12','1','1','','','',NOW(),NOW(),'12') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:41:22 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN filters f ON goods.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1054 Unknown column 'goods.students' in 'on clause'
+Fault: 03-06-2021 20:35:48 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('12','1','1','','','',NOW(),NOW(),'12') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:42:52 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 03-06-2021 21:04:52 - Ошибка в SQL запросе: SELECT goods.alias FROM goods  WHERE goods.alias='12'   LIMIT 1 - 2006 MySQL server has gone away
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:43:48 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND()  ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 03-06-2021 21:07:47 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 2006 MySQL server has gone away
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:45:25 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent.id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND()  ASC  - 1054 Unknown column 'f.parent.id' in 'on clause'
+Fault: 05-06-2021 14:34:50 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('1234','1','1','','','',NOW(),NOW(),'1234') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 18:45:45 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND()  ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 05-06-2021 14:38:55 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('1234','1','1','','','',NOW(),NOW(),'1234') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:06:14 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND()  ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 05-06-2021 14:41:20 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('1234','1','1','','','',NOW(),NOW(),'1234') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:06:51 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 05-06-2021 14:46:55 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('1234','1','1','','','',NOW(),NOW(),'1234') - 2006 MySQL server has gone away
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:09:12 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 05-06-2021 15:29:50 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:13:49 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 05-06-2021 15:32:34 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:14:13 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 05-06-2021 15:40:36 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:14:14 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 05-06-2021 16:04:13 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:14:14 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 06-06-2021 9:32:05 - Ошибка подключение к базе данных: 2002 ����������� �� �����������, �.�. �������� ��������� ������ ������ �� �����������.
+
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 50
+
+Fault: 07-06-2021 20:40:25 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:14:15 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 07-06-2021 21:06:59 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:14:15 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 07-06-2021 21:07:05 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:14:16 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
+Fault: 07-06-2021 21:08:09 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('123','1','1','','','',NOW(),NOW(),'') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
-Fault: 22-05-2021 19:25:59 - Ошибка в SQL запросе: SELECT goods.*,goods_filters.students as TABLEgoods_filtersTABLE_students,goods_filters.teachers as TABLEgoods_filtersTABLE_teachers,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.visible as TABLEfiltersTABLE_visible FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.RAND() ASC  - 1305 FUNCTION goods.RAND does not exist
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 70
-
-Fault: 23-05-2021 14:38:05 - Ошибка в SQL запросе: SHOW COLUMNS FROM teachers - 1146 Table 'im.teachers' doesn't exist
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 70
-
-Fault: 24-05-2021 20:36:49 - Ошибка в SQL запросе: SELECT filters.idas id,filters.name,filters.parent_id FROM filters   ORDER BY filters.parent_id ASC,filters.name ASC  - 1054 Unknown column 'filters.idas' in 'field list'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 70
-
-Fault: 29-05-2021 14:03:45 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 70
-
-Fault: 29-05-2021 14:06:14 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 70
-
-Fault: 29-05-2021 14:07:50 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 70
-
-Fault: 29-05-2021 14:07:52 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
-file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
-In line 70
-
-Fault: 29-05-2021 14:08:09 - Ошибка в SQL запросе: SELECT filters.id as id,filters.name FROM filters   ORDER BY filters.Array ASC  - 1054 Unknown column 'filters.Array' in 'order clause'
+Fault: 07-06-2021 21:08:55 - Ошибка в SQL запросе: INSERT INTO goods (name,visible,menu_position,keywords,filters,content,date,datetime,alias) VALUES ('12345','1','1','','','',NOW(),NOW(),'12345') - 1054 Unknown column 'filters' in 'field list'
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 

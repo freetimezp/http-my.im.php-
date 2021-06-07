@@ -33,6 +33,5 @@ class IndexController extends BaseController {
             'order_direction' => ['DESC']
         ]);
 
-        exit;
     }
 }

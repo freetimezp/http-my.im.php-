@@ -47,7 +47,7 @@ class Settings
 
     private $projectTables = [
         'goods' => ['name' => 'Товары', 'img' => 'pages.png'],
-        'filters' => ['name' => 'Фильтры', 'img' => 'pages.png'],
+        'filters' => ['name' => 'Фильтры', 'img' => 'pages.png']
     ];
 
     private $templateArr = [

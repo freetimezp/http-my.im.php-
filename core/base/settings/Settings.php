@@ -72,11 +72,11 @@ class Settings
 
     private $rootItems = [
         'name' => 'Корневая',
-        'tables' => ['articles']
+        'tables' => ['articles', 'filters']
     ];
 
     private $manyToMany = [
-        'goods_filters' => ['goods', 'filters', 'type' => 'root'] // 'type' => 'child' || 'root'
+        'goods_filters' => ['goods', 'filters'] // 'type' => 'child' || 'root'
     ];
 
     private $blockNeedle = [

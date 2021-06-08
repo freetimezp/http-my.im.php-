@@ -119,3 +119,11 @@ Fault: 07-06-2021 21:08:55 - Ошибка в SQL запросе: INSERT INTO goo
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 08-06-2021 22:20:19 - Ошибка в SQL запросе: INSERT INTO filters (name,visible,parent_id,menu_position,content) VALUES ('Height','1',0,'2','') - 1452 Cannot add or update a child row: a foreign key constraint fails (`im`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 08-06-2021 22:25:52 - Ошибка в SQL запросе: INSERT INTO filters (name,visible,parent_id,menu_position,content) VALUES ('Height','1',0,'2','') - 1452 Cannot add or update a child row: a foreign key constraint fails (`im`.`filters`, CONSTRAINT `filters_filters_id_fk` FOREIGN KEY (`parent_id`) REFERENCES `filters` (`id`))
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

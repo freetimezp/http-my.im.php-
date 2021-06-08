@@ -302,7 +302,7 @@ abstract class BaseAdmin extends BaseController
 
         $this->createAlias($id);
 
-        $this->updateMenuPosition();
+        $this->updateMenuPosition($id);
 
         $except = $this->checkExceptFields();
 
@@ -331,7 +331,7 @@ abstract class BaseAdmin extends BaseController
         if($res_id) {
             $_SESSION['res']['answer'] = '<div class="success">' . $answerSuccess . '</div>>';
 
-            if(!$returnId) { $this->redirect(); }
+             if(!$returnId) { $this->redirect(); }
 
             return $_POST[$this->columns['id_row']];
         }else{
@@ -410,8 +410,18 @@ abstract class BaseAdmin extends BaseController
         }
     }
 
-    protected function updateMenuPosition() {
+    protected function updateMenuPosition($id = false) {
+        if(isset($_POST['menu_position'])) {
+            $where = false;
 
+            if($id && $this->columns['id_row']) { $where = [$this->columns['id_row'] => $id]; }
+
+            if(array_key_exists('parent_id', $_POST)) {
+                $this->model->updateMenuPosition($this->table, 'menu_position', $where, $_POST['menu_position'], ['where' => 'parent_id']);
+            }else{
+                $this->model->updateMenuPosition($this->table, 'menu_position', $where, $_POST['menu_position']);
+            }
+        }
     }
 
     protected function checkAlias($id) {

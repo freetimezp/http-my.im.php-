@@ -60,10 +60,10 @@ class Model extends BaseModel
                 }
             }else{
                 $start_pos = $this->get($table, [
-                        'fields' => ['COUNT(*) as count'],
-                        'where' => [$update_rows['where'] => $_POST[$update_rows['where']]],
-                        'no_concat' => true
-                    ])[0]['count'] + 1;
+                    'fields' => ['COUNT(*) as count'],
+                    'where' => [$update_rows['where'] => $_POST[$update_rows['where']]],
+                    'no_concat' => true
+                ])[0]['count'] + 1;
             } 
 
             if(array_key_exists($update_rows['where'], $_POST)) {

@@ -127,3 +127,19 @@ Fault: 08-06-2021 22:25:52 - Ошибка в SQL запросе: INSERT INTO fil
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 12-06-2021 15:44:05 - Ошибка в SQL запросе: UPDATE filters SET menu_position = menu_position + 1 WHERE parent_id IS NULL  AND menu_position >= 1 AND menu_position < 4 - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 12-06-2021 15:46:18 - Ошибка в SQL запросе: UPDATE filters SET menu_position = menu_position + 1 WHERE parent_id IS NULL  AND menu_position >= 1 AND menu_position < 4 - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 13-06-2021 17:24:51 - Ошибка в SQL запросе: UPDATE filters SET menu_position = menu_position + 1 WHERE parent_id IS NULL  AND menu_position >= 1 AND menu_position < 4 - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 15-06-2021 20:57:27 - Ошибка в SQL запросе: UPDATE filters SET menu_position = menu_position + 1 WHERE parent_id='31'  AND menu_position >= 1 AND menu_position < 2 - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

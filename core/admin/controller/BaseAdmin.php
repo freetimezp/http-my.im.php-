@@ -82,7 +82,9 @@ abstract class BaseAdmin extends BaseController
             if($this->parameters) {
                 $this->table = array_keys($this->parameters)[0];
             } else {
-                if(!$settings) { $settings = Settings::instance(); }
+                if(!$settings) {
+                    $settings = Settings::instance();
+                }
                 $this->table = $settings::get('defaultTable');
             }
         }
@@ -139,8 +141,12 @@ abstract class BaseAdmin extends BaseController
 
         if (!$blocks || !is_array($blocks)) {
             foreach ($this->columns as $name => $item) {
-                if ($name === 'id_row') { continue; }
-                if (!$this->translate[$name]) { $this->translate[$name][] = $name; }
+                if ($name === 'id_row') {
+                    continue;
+                }
+                if (!$this->translate[$name]) {
+                    $this->translate[$name][] = $name;
+                }
                 $this->blocks[0][] = $name;
             }
             return;
@@ -149,7 +155,9 @@ abstract class BaseAdmin extends BaseController
         $default = array_keys($blocks)[0];
 
         foreach ($this->columns as $name => $item) {
-            if ($name === 'id_row') { continue; }
+            if ($name === 'id_row') {
+                continue;
+            }
 
             $insert = false;
 
@@ -162,8 +170,12 @@ abstract class BaseAdmin extends BaseController
                 }
             }
 
-            if(!$insert) { $this->blocks[$default][] = $name; }
-            if(!$this->translate[$name]) { $this->translate[$name][] = $name; }
+            if(!$insert) {
+                $this->blocks[$default][] = $name;
+            }
+            if(!$this->translate[$name]) {
+                $this->translate[$name][] = $name;
+            }
 
         }
 
@@ -231,7 +243,9 @@ abstract class BaseAdmin extends BaseController
         $id = $_POST[$this->columns['id_row']] ?: false;
 
         $validate = $settings::get('validation');
-        if(!$this->translate) { $this->translate = $settings::get('translate'); }
+        if(!$this->translate) {
+            $this->translate = $settings::get('translate');
+        }
 
         foreach ($arr as $key => $item) {
             if(is_array($item)) {
@@ -260,13 +274,21 @@ abstract class BaseAdmin extends BaseController
                             }
                         }
 
-                        if($validate[$key]['empty']) { $this->emptyFields($item, $answer, $arr); }
+                        if($validate[$key]['empty']) {
+                            $this->emptyFields($item, $answer, $arr);
+                        }
 
-                        if($validate[$key]['trim']) { $arr[$key] = trim($item); }
+                        if($validate[$key]['trim']) {
+                            $arr[$key] = trim($item);
+                        }
 
-                        if($validate[$key]['int']) { $arr[$key] = $this->clearNum($item); }
+                        if($validate[$key]['int']) {
+                            $arr[$key] = $this->clearNum($item);
+                        }
 
-                        if($validate[$key]['count']) { $this->countChar($item, $validate[$key]['count'], $answer, $arr); }
+                        if($validate[$key]['count']) {
+                            $this->countChar($item, $validate[$key]['count'], $answer, $arr);
+                        }
 
                     }
                 }
@@ -331,18 +353,24 @@ abstract class BaseAdmin extends BaseController
         if($res_id) {
             $_SESSION['res']['answer'] = '<div class="success">' . $answerSuccess . '</div>>';
 
-             if(!$returnId) { $this->redirect(); }
+             if(!$returnId) {
+                 $this->redirect();
+             }
 
             return $_POST[$this->columns['id_row']];
         }else{
             $_SESSION['res']['answer'] = '<div class="error">' . $answerFail . '</div>>';
 
-            if(!$returnId) { $this->redirect(); }
+            if(!$returnId) {
+                $this->redirect();
+            }
         }
     }
 
     protected function checkExceptFields($arr = []) {
-        if(!$arr) { $arr = $_POST; }
+        if(!$arr) {
+            $arr = $_POST;
+        }
 
         $except = [];
 
@@ -446,7 +474,9 @@ abstract class BaseAdmin extends BaseController
     protected function createOrderData($table) {
         $columns = $this->model->showColumns($table);
 
-        if(!$columns) { throw new RouteException('Отсутствуют поля в таблице ' . $table ); }
+        if(!$columns) {
+            throw new RouteException('Отсутствуют поля в таблице ' . $table );
+        }
 
         $name = '';
         $order_name = '';
@@ -475,7 +505,9 @@ abstract class BaseAdmin extends BaseController
     }
 
     protected function createManyToMany($settings = false) {
-        if(!$settings) { $settings = $this->settings ?: Settings::instance(); }
+        if(!$settings) {
+            $settings = $this->settings ?: Settings::instance();
+        }
 
         $manyToMany = $settings::get('manyToMany');
         $blocks = $settings::get('blockNeedle');
@@ -489,7 +521,9 @@ abstract class BaseAdmin extends BaseController
 
                     $checkBoxList = $settings::get('templateArr')['checkboxlist'];
 
-                    if(!$checkBoxList || !in_array($tables[$otherKey], $checkBoxList)) { continue; }
+                    if(!$checkBoxList || !in_array($tables[$otherKey], $checkBoxList)) {
+                        continue;
+                    }
 
                     if(!$this->translate[$tables[$otherKey]]) {
                         if($settings::get('projectTables')[$tables[$otherKey]]) {
@@ -511,14 +545,16 @@ abstract class BaseAdmin extends BaseController
                         }
                     }
 
-                    if(!$insert) { $this->blocks[array_keys($this->blocks)[0]][] = $tables[$otherKey]; }
+                    if(!$insert) {
+                        $this->blocks[array_keys($this->blocks)[0]][] = $tables[$otherKey];
+                    }
 
                     $foreign = [];
 
                     if($this->data) {
                         $res = $this->model->get($mTable, [
                             'fields' => [$tables[$otherKey] . '_' . $orderData['columns']['id_row']],
-                            'where' => [$this->table . '_' . $this->columns['id_row'] = $this->data[$this->columns['id_row']]]
+                            'where' => [$this->table . '_' . $this->columns['id_row'] => $this->data[$this->columns['id_row']]]
                         ]);
 
                         if($res) {
@@ -594,7 +630,7 @@ abstract class BaseAdmin extends BaseController
                                         if($this->foreignData[$tables[$otherKey]][$data[$key][$orderData['parent_id']]]) {
                                             $this->foreignData[$tables[$otherKey]][$data[$key][$orderData['parent_id']]]['sub'][$data[$key]['id']] = $data[$key];
 
-                                            if(in_array($data[$key['id']], $foreign)) {
+                                            if(in_array($data[$key]['id'], $foreign)) {
                                                 $this->data[$tables[$otherKey]][$data[$key][$orderData['parent_id']]][] = $data[$key]['id'];
                                             }
 
@@ -724,6 +760,121 @@ abstract class BaseAdmin extends BaseController
                 }
             }
         }
+    }
+
+    protected function createForeignProperty($arr, $rootItems) {
+        if(in_array($this->table, $rootItems['tables'])) {
+            $this->foreignData[$arr['COLUMN_NAME']][0]['id'] = 'NULL';
+            $this->foreignData[$arr['COLUMN_NAME']][0]['name'] = $rootItems['name'];
+        }
+
+        $orderData = $this->createOrderData($arr['REFERENCED_TABLE_NAME']);
+
+        if($this->data) {
+            if($arr['REFERENCED_TABLE_NAME'] === $this->table) {
+                $where[$this->columns['id_row']] = $this->data[$this->columns['id_row']];
+                $operand[] = '<>';
+            }
+        }
+
+        $foreign = $this->model->get($arr['REFERENCED_TABLE_NAME'], [
+            'fields' => [
+                $arr['REFERENCED_COLUMN_NAME'] . ' as id',
+                $orderData['name'],
+                $orderData['parent_id']
+            ],
+            'where' => $where,
+            'operand' => $operand,
+            'order' => $orderData['order']
+        ]);
+
+        if($foreign) {
+            if($this->foreignData[$arr['COLUMN_NAME']]) {
+                foreach ($foreign as $value) {
+                    $this->foreignData[$arr['COLUMN_NAME']][] = $value;
+                }
+            } else {
+                $this->foreignData[$arr['COLUMN_NAME']] = $foreign;
+            }
+        }
+    }
+
+    protected function createForeignData($settings = false) {
+        if(!$settings) { $settings = Settings::instance(); }
+
+        $rootItems = $settings::get('rootItems');
+
+        $keys = $this->model->showForeignKeys($this->table);
+
+        if($keys) {
+            foreach ($keys as $item) {
+                $this->createForeignProperty($item, $rootItems);
+            }
+        } elseif ($this->columns['parent_id']) {
+            $arr['COLUMN_NAME'] = 'parent_id';
+            $arr['REFERENCED_COLUMN_NAME'] = $this->columns['id_row'];
+            $arr['REFERENCED_TABLE_NAME'] = $this->table;
+
+            $this->createForeignProperty($arr, $rootItems);
+        }
+
+        return;
+    }
+
+    protected function createMenuPosition($settings = false) {
+
+        if($this->columns['menu_position']) {
+            if(!$settings) {
+                $settings = Settings::instance();
+            }
+
+            $rootItems = $settings::get('rootItems');
+
+            if($this->columns['parent_id']) {
+                if(in_array($this->table, $rootItems['tables'])) {
+                    $where = 'parent_id IS NULL OR parent_id = 0';
+                } else {
+                    $parent = $this->model->showForeignKeys($this->table, 'parent_id')[0];
+
+                    if($parent) {
+                        if($this->table === $parent['REFERENCED_TABLE_NAME']) {
+                            $where = 'parent_id IS NULL OR parent_id = 0';
+                        } else {
+                            $columns = $this->model->showColumns($parent['REFERENCED_TABLE_NAME']);
+
+                            if($columns['parent_id']) { $order[] = 'parent_id'; }
+                            else { $order[] = $parent['REFERENCED_COLUMN_NAME']; }
+
+                            $id = $this->model->get($parent['REFERENCED_TABLE_NAME'], [
+                                'fields' => [$parent['REFERENCED_COLUMN_NAME']],
+                                'order' => $order,
+                                'limit' => '1'
+                            ])[0][$parent['REFERENCED_COLUMN_NAME']];
+
+                            if($id) {
+                                $where = ['parent_id' => $id];
+                            }
+                        }
+                    } else {
+                        $where = 'parent_id IS NULL OR parent_id = 0';
+                    }
+                }
+            }
+
+            $menu_pos = $this->model->get($this->table, [
+                    'fields' => ['COUNT(*) as count'],
+                    'where' => $where,
+                    'no_concat' => true
+                ])[0]['count'] + (int)!$this->data;
+
+            for($i = 1; $i <= $menu_pos; $i++) {
+                $this->foreignData['menu_position'][$i - 1]['id'] = $i;
+                $this->foreignData['menu_position'][$i - 1]['name'] = $i;
+            }
+        }
+
+        return;
+
     }
 }
 

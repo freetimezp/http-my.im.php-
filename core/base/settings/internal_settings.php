@@ -41,5 +41,3 @@ spl_autoload_register('autoloadMainClasses');
 
 
 
-
-?>

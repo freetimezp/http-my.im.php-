@@ -143,3 +143,719 @@ Fault: 15-06-2021 20:57:27 - Ошибка в SQL запросе: UPDATE filters 
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 17-06-2021 19:04:25 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 17-06-2021 22:04:53 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 18-06-2021 19:30:13 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 18-06-2021 19:31:36 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 18-06-2021 20:26:08 - Ошибка в SQL запросе: SELECT COLUMN_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME FROM information_schema.KEY_COLUMN_USAGE 
+                  WHERE TABLE_SCHEMA = 'im' AND TABLE_NAME = 'goods' AND
+                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 12:40:53 - Ошибка в SQL запросе: SELECT goods.alias FROM goods  WHERE goods.alias='good123' AND goods.id<>'42'   LIMIT 1 - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 13:00:17 - Ошибка в SQL запросе: SELECT COLUMN_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME FROM information_schema.KEY_COLUMN_USAGE 
+                  WHERE TABLE_SCHEMA = 'im' AND TABLE_NAME = 'goods' AND
+                  CONSTRAINT_NAME <> 'PRIMARY' AND REFERENCED_TABLE_NAME is not null  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 13:02:11 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 13:12:01 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 20:35:04 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 20:50:31 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 20:52:47 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 20:54:34 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 20:59:16 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:09:20 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:11:33 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:11:39 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:12:07 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:13:44 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:15:46 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:17:44 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:20:15 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:22:16 - Ошибка в SQL запросе: SELECT goods.menu_position FROM goods  WHERE goods.id='47'    - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 19-06-2021 21:24:45 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 14:59:30 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:02:09 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:04:30 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:06:38 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:06:40 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:06:49 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:07:07 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:07:32 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:15:19 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:16:04 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:17:18 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:21:02 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:32:37 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:33:27 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:34:24 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:41:53 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:46:38 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:55:03 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:56:36 - Ошибка в SQL запросе: SELECT goods.menu_position FROM goods  WHERE goods.id='42'    - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 15:59:32 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:01:12 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:02:04 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:19:02 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:23:06 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:23:54 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:29:43 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:32:55 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:37:01 - Ошибка в SQL запросе: SELECT goods.* FROM goods  WHERE g   - 1054 Unknown column 'g' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:37:24 - Ошибка в SQL запросе: SELECT goods.* FROM goods  WHERE g   - 1054 Unknown column 'g' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:52:13 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:52:53 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:55:05 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 16:56:18 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:01:26 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:06:11 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:09:22 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:09:54 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:16:01 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:18:19 - Ошибка в SQL запросе: SELECT goods.* FROM goods  WHERE goods.id='42'    - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:24:43 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 17:30:27 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 18:48:12 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 18:49:51 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 18:56:41 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 18:59:55 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:00:19 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:02:34 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:05:40 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:06:08 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:06:14 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:06:16 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:06:16 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:07:05 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:10:05 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:10:43 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:10:45 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:10:46 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:10:50 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:10:58 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:11:07 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:11:19 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:11:29 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:11:38 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:11:54 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:11:56 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:12:42 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:12:45 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:13:02 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:13:11 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:15:00 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:28:37 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:30:34 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:31:22 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:31:33 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:31:42 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:36:24 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:36:28 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:36:38 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:36:45 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:37:25 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:38:35 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:39:26 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:39:34 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:40:09 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:40:46 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:41:57 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:42:20 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:47:54 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 19:50:45 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 20:02:14 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-06-2021 20:08:32 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 13:48:23 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 13:56:33 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:04:53 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:06:00 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:07:39 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:11:15 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:12:07 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:12:38 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:13:52 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:14:43 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:19:49 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:24:43 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-06-2021 14:25:55 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 11:45:16 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 11:45:43 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 11:48:55 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 11:55:09 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 11:55:31 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 12:21:41 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 12:50:48 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 12:52:21 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:04:48 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:05:34 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:05:54 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:09:47 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:11:23 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:16:21 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:19:54 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:20:16 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:20:26 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:20:28 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:20:29 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:20:52 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:20:53 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:00 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:01 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:09 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:12 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:20 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:30 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:40 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:45 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:21:46 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:22:12 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:22:32 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:28:39 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:30:04 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:31:54 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:32:10 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:32:24 - Ошибка в SQL запросе: SHOW COLUMNS FROM goods - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:32:35 - Ошибка в SQL запросе: SHOW COLUMNS FROM filters - 0 
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:33:51 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:34:48 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:35:37 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:37:16 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:38:26 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:40:19 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:42:33 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:44:04 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 28-06-2021 13:46:34 - Ошибка в SQL запросе: SELECT COUNT(*) as count FROM goods     - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 14-07-2021 19:02:59 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 14-07-2021 19:53:37 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 14-07-2021 20:01:07 - Ошибка в SQL запросе: DELETE goods FROM goods  WHERE goods.0='id'  - 1054 Unknown column 'goods.0' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

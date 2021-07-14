@@ -66,6 +66,8 @@ class Settings
         'content' => []
     ];
 
+    private $fileTemplates = ['img', 'gallery_img'];
+
     private $radio = [
         'visible' => ['НЕТ', 'ДА', 'default' => 'ДА']
     ];
@@ -99,9 +101,7 @@ class Settings
     }
 
     public function clueProperties($class) {
-        $baseProperties = [
-
-        ];
+        $baseProperties = [];
 
         foreach ($this as $name => $item) {
             $property = $class::get($name);

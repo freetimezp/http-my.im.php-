@@ -101,9 +101,13 @@ abstract class BaseModelMethods
                     $order_direction = strtoupper($set['order_direction'][$direct_count - 1]);
                 }
 
-                if(in_array($order, $this->sqlFunc)) { $order_by .= $order . ','; }
-                elseif(is_int($order)) { $order_by .= $order . ' ' . $order_direction . ','; }
-                else { $order_by .= $table . $order . ' ' . $order_direction . ','; }
+                if(in_array($order, $this->sqlFunc)) {
+                    $order_by .= $order . ',';
+                }elseif(is_int($order)) {
+                    $order_by .= $order . ' ' . $order_direction . ',';
+                }else {
+                    $order_by .= $table . $order . ' ' . $order_direction . ',';
+                }
             }
 
             $order_by = rtrim($order_by, ',');
@@ -124,10 +128,8 @@ abstract class BaseModelMethods
 
         if(is_array($set['where']) && !empty($set['where'])) {
 
-            $set['operand'] = (is_array($set['operand']) && !empty($set['operand']))
-                ? $set['operand'] : ['='];
-            $set['condition'] = (is_array($set['condition']) && !empty($set['condition']))
-                ? $set['condition'] : ['AND'];
+            $set['operand'] = (is_array($set['operand']) && !empty($set['operand'])) ? $set['operand'] : ['='];
+            $set['condition'] = (is_array($set['condition']) && !empty($set['condition'])) ? $set['condition'] : ['AND'];
 
             $where = $instruction;
 
@@ -136,6 +138,7 @@ abstract class BaseModelMethods
 
             foreach ($set['where'] as $key => $item) {
                 $where .= ' ';
+
                 if($set['operand'][$o_count]) {
                     $operand = $set['operand'][$o_count];
                     $o_count++;
@@ -147,7 +150,7 @@ abstract class BaseModelMethods
                     $condition = $set['condition'][$c_count];
                     $c_count++;
                 } else {
-                    $condition= $set['condition'][$c_count - 1];
+                    $condition = $set['condition'][$c_count - 1];
                 }
 
                 if($operand === 'IN' || $operand === 'NOT IN') {
@@ -161,6 +164,7 @@ abstract class BaseModelMethods
                         }
 
                         $in_str = '';
+
                         foreach ($temp_item as $v) {
                             $in_str .= "'" . addslashes(trim($v)) . "',";
                         }
@@ -213,30 +217,43 @@ abstract class BaseModelMethods
 
             foreach ($set['join'] as $key => $item) {
                 if(is_int($key)) {
-                    if(!$item['table']) { continue; }
-                    else { $key = $item['table']; }
+                    if(!$item['table']) {
+                        continue;
+                    }else{
+                        $key = $item['table'];
+                    }
                 }
 
                 $concatTable = $this->createTableAlias($key)['alias'];
 
-                if($join) {  $join .= ' '; }
+                if($join) {
+                    $join .= ' ';
+                }
 
                 if(isset($item['on']) && $item['on']) {
                     $join_fields = [];
 
-                    if(isset($item['on']['fields'])
-                        && is_array($item['on']['fields'])
-                        && count($item['on']['fields']) === 2) { $join_fields = $item['on']['fields']; }
-                    elseif(count($item['on']) === 2) { $join_fields = $item['on']; }
-                    else{ continue; }
+                    if(isset($item['on']['fields']) && is_array($item['on']['fields']) && count($item['on']['fields']) === 2) {
+                        $join_fields = $item['on']['fields'];
+                    }elseif(count($item['on']) === 2) {
+                        $join_fields = $item['on'];
+                    }else{
+                        continue;
+                    }
 
-                    if(!$item['type']) { $join .= 'LEFT JOIN '; }
-                    else { $join .= trim(strtoupper($item['type'])) . ' JOIN '; }
+                    if(!$item['type']) {
+                        $join .= 'LEFT JOIN ';
+                    }else{
+                        $join .= trim(strtoupper($item['type'])) . ' JOIN ';
+                    }
 
                     $join .= $key . ' ON ';
 
-                    if($item['on']['table']) { $join_temp_table = $item['on']['table']; }
-                    else { $join_temp_table = $join_table; }
+                    if($item['on']['table']) {
+                        $join_temp_table = $item['on']['table'];
+                    }else{
+                        $join_temp_table = $join_table;
+                    }
 
                     $join .= $this->createTableAlias($join_temp_table)['alias'];
 
@@ -245,7 +262,9 @@ abstract class BaseModelMethods
                     $join_table = $key;
 
                     if($new_where) {
-                        if($item['where']) { $new_where = false; }
+                        if($item['where']) {
+                            $new_where = false;
+                        }
 
                         $group_condition = 'WHERE';
                     } else {
@@ -389,7 +408,9 @@ abstract class BaseModelMethods
 
         foreach ($res as $value) {
             if($value) {
-                if(!isset($join_arr[$value[$id_row]])) { $join_arr[$value[$id_row]] = []; }
+                if(!isset($join_arr[$value[$id_row]])) {
+                    $join_arr[$value[$id_row]] = [];
+                }
 
                 foreach ($value as $key => $item) {
                     if(preg_match('/TABLE(.+)?TABLE/u', $key, $matches)) {

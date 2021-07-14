@@ -16,7 +16,8 @@ trait BaseMethods
     }
 
     protected function clearNum($num) {
-        return $num * 1;
+        return (!empty($num) && preg_match('/\d/', $num)) ?
+            preg_replace('/[^\d.]/', '', $num) * 1 : 0;
     }
 
     protected function isPost() {
@@ -38,7 +39,7 @@ trait BaseMethods
         if($http) $redirect = $http;
         else $redirect = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : PATH;
         header("location: $redirect");
-        exit();
+        exit;
 
     }
 

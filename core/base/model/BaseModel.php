@@ -192,13 +192,17 @@ abstract class BaseModel extends BaseModelMethods
 
         $columns = $this->showColumns($table);
 
-        if(!$columns) { return false; }
+        if(!$columns) {
+            return false;
+        }
 
         if(is_array($set['fields']) && !empty($set['fields'])) {
             if($columns['id_row']) {
                 $key = array_search($columns['id_row'], $set['fields']);
 
-                if($key !== false) { unset($set['fields'][$key]); }
+                if($key !== false) {
+                    unset($set['fields'][$key]);
+                }
             }
 
             $fields = [];

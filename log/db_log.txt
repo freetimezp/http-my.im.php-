@@ -859,3 +859,11 @@ Fault: 14-07-2021 20:01:07 - Ошибка в SQL запросе: DELETE goods FR
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 16-07-2021 23:17:42 - Ошибка в SQL запросе: UPDATE goods SET id=NULL,name=NULL,visible=0,menu_position=NULL,keywords=NULL,content=NULL,date=NOW(),datetime=NOW(),alias=NULL,img='1556784857_3162_73d35796.jpg' WHERE id='42'  - 1048 Column 'id' cannot be null
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 16-07-2021 23:17:57 - Ошибка в SQL запросе: UPDATE goods SET id=NULL,name=NULL,visible=0,menu_position=NULL,keywords=NULL,content=NULL,date=NOW(),datetime=NOW(),alias=NULL,img='unnamed_cf13ae10.gif' WHERE id='42'  - 1048 Column 'id' cannot be null
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

@@ -136,7 +136,7 @@ class DeleteController extends BaseAdmin
                         if($item === $value) {
                             $updateFlag = true;
 
-                            @unlink($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . $value);
+                            @unlink($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . $item);
                             unset($data[$key]);
 
                             $this->data[$row] = $data ? json_encode($data) : 'NULL';
@@ -147,7 +147,7 @@ class DeleteController extends BaseAdmin
                 }elseif($this->data[$row] === $item){
                     $updateFlag = true;
 
-                    @unlink($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . $value);
+                    @unlink($_SERVER['DOCUMENT_ROOT'] . PATH . UPLOAD_DIR . $item);
 
                     $this->data[$row] = 'NULL';
                 }

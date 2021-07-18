@@ -2,6 +2,8 @@
 
 defined('VG_ACCESS') or die('Access denied');
 
+const MS_MODE = false;
+
 const TEMPLATE = 'templates/default/';
 const ADMIN_TEMPLATE = 'core/admin/view/';
 const UPLOAD_DIR = 'userfiles/';

@@ -20,49 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fa5e3d6-9b8f-4033-b135-a035cd8e3fac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98d0b9e2-48d3-4864-be39-4ffb96c3d61e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98d0b9e2-48d3-4864-be39-4ffb96c3d61e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/BaseAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/DeleteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/DeleteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/internal_settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/internal_settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/1556784857_3162.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/1556784857_3162_73d35796.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21_323367d2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21_407183d7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21_79676eb2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21_b23a8309.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21_ca36a2a0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21_dcf29a60.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/21_f8dd636a.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/58c86887cd4fd135962662f135b47897.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/58c86887cd4fd135962662f135b47897_beedb54c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/611738665.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/611738665_2cad0534.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/611738665_4ff671fc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/611738665_ef1576e3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/720361002.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/720361002_0a8ed6c9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/720361002_7eee10d8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/720361002_8a52f55b.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/7d44810e6005055f7c42d674503494cb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/7d44810e6005055f7c42d674503494cb_6a3b2054.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/7d44810e6005055f7c42d674503494cb_9337682e.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/birthday-1251.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/birthday-1251_3ce84623.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/gif-s-dnem-rozhdenia-new-7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/gifki-s-dnem-rozhdeniya-zhenshhine-krasivye-35.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/gifki-s-dnem-rozhdeniya-zhenshhine-krasivye-35_3a594fa9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/gifki-s-dnem-rozhdeniya-zhenshhine-krasivye-35_b1c8e971.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_21068329.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/unnamed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/unnamed_06f26cd1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/unnamed_8f18aacb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/unnamed_c651358d.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/unnamed_cf13ae10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/unnamed_e9d76b29.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +68,7 @@
       <workItem from="1626278542536" duration="8700000" />
       <workItem from="1626369864361" duration="4949000" />
       <workItem from="1626457408551" duration="3474000" />
-      <workItem from="1626621701652" duration="2216000" />
+      <workItem from="1626621701652" duration="5607000" />
     </task>
     <servers />
   </component>
@@ -186,10 +148,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1626286258890" />
-    <state x="803" y="336" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1626466876750">
+    <state x="803" y="336" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1626635854276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="803" y="336" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626466876750" />
+    <state x="803" y="336" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626635854276" />
     <state x="440" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1626283586766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

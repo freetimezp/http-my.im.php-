@@ -908,63 +908,67 @@ SELECT|sys.sys_config:null
       <Position>12</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="276" parent="240" name="PRIMARY">
+    <column id="276" parent="240" name="new_gallery_img">
+      <Position>13</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="277" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="277" parent="241" name="filters_id">
+    <column id="278" parent="241" name="filters_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="278" parent="241" name="goods_id">
+    <column id="279" parent="241" name="goods_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="279" parent="241" name="PRIMARY">
+    <key id="280" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>filters_id
 goods_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="280" parent="242" name="alias">
+    <column id="281" parent="242" name="alias">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="281" parent="242" name="table_name">
+    <column id="282" parent="242" name="table_name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="282" parent="242" name="table_id">
+    <column id="283" parent="242" name="table_id">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <column id="283" parent="243" name="id">
+    <column id="284" parent="243" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="284" parent="243" name="name">
+    <column id="285" parent="243" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="285" parent="243" name="PRIMARY">
+    <key id="286" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="286" parent="244" name="all_links">
+    <column id="287" parent="244" name="all_links">
       <Position>1</Position>
       <DataType>longtext|0s</DataType>
     </column>
-    <column id="287" parent="244" name="temp_links">
+    <column id="288" parent="244" name="temp_links">
       <Position>2</Position>
       <DataType>longtext|0s</DataType>
     </column>
-    <column id="288" parent="244" name="bad_links">
+    <column id="289" parent="244" name="bad_links">
       <Position>3</Position>
       <DataType>longtext|0s</DataType>
     </column>

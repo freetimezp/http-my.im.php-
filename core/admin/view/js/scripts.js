@@ -106,6 +106,24 @@ function createFile() {
                     //console.log(forData.get('gallery_img[1]'));
 
                     forData.append('ajax', 'editData');
+
+                    Ajax({
+                        url: this.getAttribute('action'),
+                        type: 'post',
+                        data: forData,
+                        processData: false,
+                        contentType: false
+                    }).then(res => {
+                        try{
+                            res = JSON.parse(res);
+                            if(!res.success) {
+                                throw new Error();
+                            }
+                            location.reload();
+                        }catch(e) {
+                            alert('Произошла внутрення ошибка');
+                        }
+                    });
                 }
             }
         }

@@ -21,36 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2fa5e3d6-9b8f-4033-b135-a035cd8e3fac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/controller/AjaxController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/admin/view/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseAjax.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseAjax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/controller/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/controller/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/720361002_da356cb6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/7d44810e6005055f7c42d674503494cb_7c1f54a0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_0ac7e584.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_14c3cdf8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_42e4289a.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_453e330e.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_5409ca1c.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_5bc1ce03.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_be3a1867.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_c89f46fd.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/otkrytka-s-dnem-rozhdeniya-devushke-s-rozami-79413_f81eeee1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_17639e47.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_31ae50fb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_3e1ca120.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_727fbe89.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_74e54a66.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_7e757543.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_b8c6ab2e.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_d39ddf20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_f83c1dd3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/s-dnem-rozhdeniya-zhenshine-72_fa0920bc.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +71,7 @@
       <workItem from="1626621701652" duration="5607000" />
       <workItem from="1626711626321" duration="5343000" />
       <workItem from="1626790940852" duration="11608000" />
+      <workItem from="1626867593365" duration="3927000" />
     </task>
     <servers />
   </component>
@@ -188,9 +163,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1626283586766" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1626282773564">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1626889774616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626282773564" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626889774616" />
   </component>
 </project>

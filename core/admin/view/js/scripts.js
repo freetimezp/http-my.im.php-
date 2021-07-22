@@ -265,7 +265,60 @@ function blockParameters() {
     }
 }
 
+showHideMenuSearch();
 
+function showHideMenuSearch(){
+    document.querySelector('#hideButton').addEventListener('click', () => {
+        document.querySelector('.vg-carcass').classList.toggle('vg-hide');
+    });
+
+    let searchBtn = document.querySelector('#searchButton');
+    let searchInput = searchBtn.querySelector('input[type=text]');
+
+    searchBtn.addEventListener('click', () => {
+        searchBtn.classList.add('vg-search-reverse');
+        searchInput.focus();
+    });
+
+    searchInput.addEventListener('blur', () => {
+        searchBtn.classList.remove('vg-search-reverse');
+    });
+}
+
+let searchResultHover = (() => {
+    let searchRes = document.querySelector('.search_res');
+    let searchInput = document.querySelector('#searchButton input[type=text]');
+    let defaultInputValue = null;
+
+    function searchKeyDown(e) {
+
+    }
+
+    function setDefaultValue() {
+        searchInput.value = defaultInputValue;
+    }
+
+    searchRes.addEventListener('mouseleave', setDefaultValue);
+    window.addEventListener('keydown', searchKeyDown);
+
+    return () => {
+        defaultInputValue = searchInput.value;
+
+        if(searchRes.children.length) {
+            let children = [...searchRes.children];
+
+            children.forEach(item => {
+                item.addEventListener('mouseover', () => {
+                    children.forEach(el => el.classList.remove('search_act'));
+                    item.classList.add('search_act');
+                    searchInput.value = item.innerText;
+                });
+            });
+        }
+    };
+})();
+
+searchResultHover();
 
 
 

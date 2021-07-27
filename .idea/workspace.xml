@@ -21,11 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2fa5e3d6-9b8f-4033-b135-a035cd8e3fac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/frameworkfunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/admin/view/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin/view/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/birthday-1251.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfiles/unnamed_d9c49583.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/1556784857_3162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/58c86887cd4fd135962662f135b47897.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userfiles/58c86887cd4fd135962662f135b47897_33c32d2d.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,8 @@
       <workItem from="1626867593365" duration="5126000" />
       <workItem from="1626971305559" duration="4631000" />
       <workItem from="1627120661197" duration="3502000" />
-      <workItem from="1627211750233" duration="5730000" />
+      <workItem from="1627211750233" duration="6095000" />
+      <workItem from="1627404824201" duration="3404000" />
     </task>
     <servers />
   </component>

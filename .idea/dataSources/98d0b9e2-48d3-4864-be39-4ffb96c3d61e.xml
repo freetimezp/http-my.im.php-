@@ -955,20 +955,24 @@ goods_id</ColNames>
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <key id="286" parent="243" name="PRIMARY">
+    <column id="286" parent="243" name="new_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="287" parent="243" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="287" parent="244" name="all_links">
+    <column id="288" parent="244" name="all_links">
       <Position>1</Position>
       <DataType>longtext|0s</DataType>
     </column>
-    <column id="288" parent="244" name="temp_links">
+    <column id="289" parent="244" name="temp_links">
       <Position>2</Position>
       <DataType>longtext|0s</DataType>
     </column>
-    <column id="289" parent="244" name="bad_links">
+    <column id="290" parent="244" name="bad_links">
       <Position>3</Position>
       <DataType>longtext|0s</DataType>
     </column>

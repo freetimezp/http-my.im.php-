@@ -911,3 +911,7 @@ Fault: 31-07-2021 23:20:46 - Ошибка в SQL запросе: SHOW COLUMNS FR
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 03-08-2021 20:32:51 - Ошибка в SQL запросе: SHOW COLUMNS FROM pages - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

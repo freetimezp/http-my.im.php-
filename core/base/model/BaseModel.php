@@ -126,6 +126,10 @@ abstract class BaseModel extends BaseModelMethods
 
         $query = "SELECT $fields FROM $table $join $where $order $limit";
 
+        if(!empty($set['return_query'])) {
+            return $query;
+        }
+
         $res = $this->query($query);
 
         if(isset($set['join_structure']) && $set['join_structure'] && $res) {
@@ -224,6 +228,32 @@ abstract class BaseModel extends BaseModelMethods
         }
 
         return $this->query($query, 'u');
+    }
+
+    public function buildUnion($table, $set) {
+        if(array_key_exists('fields', $set) && $set['fields'] === null) {
+            return $this;
+        }
+
+        if(!array_key_exists('fields', $set) || empty($set['fields'])) {
+            $set['fields'] = [];
+
+            $columns = $this->showColumns($table);
+
+            unset($columns['id_row'], $columns['multi_id_row']);
+
+            foreach ($columns as $row => $item) {
+                $set['fields'][] = $row;
+            }
+        }
+
+        $this->union[$table] = $set;
+        $this->union[$table]['return_query'] = true;
+        return $this;
+    }
+
+    public function getUnion() {
+        $a = 1;
     }
 
     final public function showColumns($table){

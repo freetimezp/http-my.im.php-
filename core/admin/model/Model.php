@@ -181,9 +181,15 @@ class Model extends BaseModel
             }
 
             if($where) {
-                //$this->buildUnion();
+                $this->buildUnion($table, [
+                    'fields' => $fields,
+                    'where' => $where,
+                    'no_concat' => true
+                ]);
             }
         }
+
+        $this->test();
 
         $orderDirection = null;
 
@@ -224,8 +230,6 @@ class Model extends BaseModel
                 }
 
                 $where && $where = preg_replace('/\s*or\s*$/i', '', $where) . ')';
-
-                $a = 1;
             }
         }
 

@@ -6,6 +6,7 @@ abstract class BaseModelMethods
 {
     protected $sqlFunc = ['NOW()'];
     protected $tableRows;
+    protected $union = [];
 
     protected function createFields ($set, $table = false, $join = false) {
         if(array_key_exists('fields', $set) && $set['fields'] === null) {

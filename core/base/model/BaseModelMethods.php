@@ -53,7 +53,12 @@ abstract class BaseModelMethods
                     $id_field = true;
                 }
 
-                if($field) {
+                if($field || $field === null) {
+                    if($field === null) {
+                        $fields .= "NULL,";
+                        continue;
+                    }
+
                     if($join && $join_structure) {
                         if(preg_match('/^(.+)?\s+as\s+(.+)/i', $field, $matches)) {
                             $fields .= $concat_table . $matches[1] . ' as TABLE' . $alias_table . 'TABLE_' . $matches[2] . ',';

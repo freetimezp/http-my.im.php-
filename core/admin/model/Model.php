@@ -189,14 +189,22 @@ class Model extends BaseModel
             }
         }
 
-        $this->test();
-
         $orderDirection = null;
 
         if($order) {
             $order = ($correctCurrentTable ? 'current_table DESC, ' : '') . '(' . implode('+', $order) . ')';
             $orderDirection = 'DESC';
         }
+
+        $result = $this->getUnion([
+            //'type' => 'all',
+            //'pagination' => [],
+            //'limit' => 3,
+            'order' => $order,
+            'order_direction' => $orderDirection
+        ]);
+
+
     }
 
     protected function createWhereOrder($searchRows, $searchArr, $orderRows, $table) {

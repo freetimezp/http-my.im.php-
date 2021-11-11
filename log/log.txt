@@ -9526,3 +9526,47 @@ Fault: 10-11-2021 21:29:33 - Class core\user\controller\Favicon.icoController do
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
 In line 48
 
+Fault: 11-11-2021 22:09:46 - Не верное имя файла для подключения: core/admin/controller/SearchController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 40
+
+Fault: 11-11-2021 22:09:46 - Class core\admin\controller\SearchController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+
+Fault: 11-11-2021 22:09:46 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+
+Fault: 11-11-2021 22:09:49 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+
+Fault: 11-11-2021 22:13:06 - Не верное имя файла для подключения: core/admin/controller/SearchController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 40
+
+Fault: 11-11-2021 22:13:06 - Class core\admin\controller\SearchController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+
+Fault: 11-11-2021 22:13:06 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+
+Fault: 11-11-2021 22:13:10 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+
+Fault: 11-11-2021 22:13:43 - Не верное имя файла для подключения: core/admin/controller/SearchController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 40
+
+Fault: 11-11-2021 22:13:43 - Class core\admin\controller\SearchController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+
+Fault: 11-11-2021 22:13:43 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 48
+

@@ -148,6 +148,8 @@ class UserModel extends BaseModel
             throw new AuthException('Не найжены данные в таблице ' . $this->userTable . ' по идентификатору ' . $data['id'], 1);
         }
 
+        $this->userData = $this->userData[0];
+
         return true;
 
     }

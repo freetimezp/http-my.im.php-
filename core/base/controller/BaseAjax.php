@@ -11,6 +11,10 @@ class BaseAjax extends BaseController
         $controller = $route['user']['path'] . 'AjaxController';
         $data = $this->isPost() ? $_POST : $_GET;
 
+        if(!empty($data['ajax']) && $data['ajax'] === 'token') {
+            return $this->generateToken();
+        }
+
         $httpReferer = str_replace('/', '\/', $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['SERVER_NAME'] . PATH . $route['admin']['alias']);
 
         if(isset($data['ADMIN_MODE']) || preg_match('/^' . $httpReferer . '(\/?|$)/', $_SERVER['HTTP_REFERER'])) {
@@ -31,5 +35,9 @@ class BaseAjax extends BaseController
         }
 
         return $res;
+    }
+
+    protected function generateToken() {
+        return $_SESSION['token'] = md5(mt_rand(0, 999999) . microtime());
     }
 }

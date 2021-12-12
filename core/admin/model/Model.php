@@ -143,7 +143,7 @@ class Model extends BaseModel
 
             $fields[] = $columns['id_row'] . ' as id';
 
-            $fieldName = isset($columns['name']) ? "CASE WHEN name <> '' THEN name " : '';
+            $fieldName = isset($columns['name']) ? "CASE WHEN {$table}.name <> '' THEN {$table}.name " : '';
 
             foreach ($columns as $col => $value) {
                 if($col !== 'name' && stripos($col, 'name') !== false) {
@@ -151,12 +151,12 @@ class Model extends BaseModel
                         $fieldName = 'CASE ';
                     }
 
-                    $fieldName .= "WHEN $col <> '' THEN $col ";
+                    $fieldName .= "WHEN {$table}.$col <> '' THEN {$table}.$col ";
                 }
 
                 if(isset($value['Type']) &&
-                    (stripos($value['Type'], 'char') !== false) ||
-                    (stripos($value['Type'], 'text') !== false)
+                    (stripos($value['Type'], 'char') !== false ||
+                    stripos($value['Type'], 'text') !== false)
                 ) {
                     $searchRows[] = $col;
                 }
@@ -204,7 +204,19 @@ class Model extends BaseModel
             'order_direction' => $orderDirection
         ]);
 
+        if($result) {
+            foreach ($result as $index => $item) {
+                $result[$index]['name'] .= '(' .
+                    (isset($projectTables[$item['table_name']]['name'])
+                        ? $projectTables[$item['table_name']]['name']
+                        : $item['table_name']) . ')';
 
+                $result[$index]['alias'] = PATH .
+                    Settings::get('routes')['admin']['alias'] . '/edit/' . $item['table_name'] . '/' . $item['id'];
+            }
+        }
+
+         return $result ?: [];
     }
 
     protected function createWhereOrder($searchRows, $searchArr, $orderRows, $table) {
@@ -230,7 +242,7 @@ class Model extends BaseModel
                         }
 
                         if(isset($columns[$row])) {
-                            $where .= "$row LIKE '%$item%' OR ";
+                            $where .= "{$table}.$row LIKE '%$item%' OR ";
                         }
                     }
 

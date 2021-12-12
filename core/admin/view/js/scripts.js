@@ -10,10 +10,10 @@ function createSitemap() {
 
     Ajax({data: {ajax: 'sitemap', links_counter: links_counter}})
         .then((res) => {
-            console.log('успех Ajax - ' + res);
+            //console.log('успех Ajax - ' + res);
         })
         .catch((res) => {
-            console.log('ошибка Ajax - ' + res);
+            //console.log('ошибка Ajax - ' + res);
             createSitemap();
         });
 }
@@ -288,7 +288,11 @@ function showHideMenuSearch(){
         searchInput.focus();
     });
 
-    searchInput.addEventListener('blur', () => {
+    searchInput.addEventListener('blur', e => {
+        if(e.relatedTarget && e.relatedTarget.tagName === 'A') {
+            return
+        }
+
         searchBtn.classList.remove('vg-search-reverse');
     });
 }
@@ -321,7 +325,7 @@ let searchResultHover = (() => {
             children.forEach(item => item.classList.remove('search_act'));
             children[activeIndex].classList.add('search_act');
 
-            searchInput.value = children[activeIndex].innerText;
+            searchInput.value = children[activeIndex].innerText.replace(/\(.+?\)\s*$/, '');
         }
     }
 
@@ -351,10 +355,9 @@ let searchResultHover = (() => {
 
 searchResultHover();
 
-search();
-
 function search() {
     let searchInput = document.querySelector('input[name=search]');
+    console.log(searchInput);
 
     if(searchInput) {
         searchInput.oninput = () => {
@@ -363,17 +366,40 @@ function search() {
                     {
                         data: {
                             data: searchInput.value,
-                            table: document.querySelector('input[name=search_table]').value,
+                            table: document.querySelector('input[name="search_table"]').value,
                             ajax: 'search'
                         }
                     }
                 ).then(res => {
-                    console.log(res);
+                    //console.log(res);
+                    try{
+                        res = JSON.parse(res);
+                        console.log('success');
+                        let resBlok = document.querySelector('.search_res');
+                        let counter = res.length > 20 ? 20 : res.length;
+
+                        if(resBlok) {
+                            resBlok.innerHTML = '';
+                            for(let i = 0; i < counter; i++) {
+                                resBlok.insertAdjacentHTML('beforeend', `<a href="${res[i]['alias']}">${res[i]['name']}</a>`);
+                            }
+
+                            searchResultHover();
+                        }
+                    }catch(e){
+                        console.log('error');
+                        //alert('Ошибка в системе поиска в админ панели');
+                    }
                 })
+            }else{
+                console.log(123)
             }
+
         }
     }
 }
+
+search();
 
 let galleries = document.querySelectorAll('.gallery_container');
 
@@ -382,7 +408,7 @@ if(galleries.length) {
         item.sortable({
             excludedElements: 'label .empty_container',
             stop: function (dragEl) {
-                console.log(this)
+                //console.log(this)
             }
         });
     });
@@ -422,7 +448,7 @@ function createJsSortable(form) {
                             }
                         }
                     }
-                    console.log(res);
+                    //console.log(res);
 
                     inputSorting.value = JSON.stringify(res);
                 }

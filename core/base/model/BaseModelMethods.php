@@ -66,7 +66,7 @@ abstract class BaseModelMethods
                             $fields .= $concat_table . $field . ' as TABLE' . $alias_table . 'TABLE_' . $field . ',';
                         }
                     }else{
-                        $fields .= $concat_table . $field . ',';
+                        $fields .= (!preg_match('/(\([^()]*\))|(case\s+.+?\s+end)/i', $field) ? $concat_table : '') . $field . ',';
                     }
                 }
             }

@@ -70,6 +70,12 @@
 </head>
 <body>
     <div>
+        <?php if(!empty($_SESSION['res']['answer'])) {
+            echo '<p style="color: red">' . $_SESSION['res']['answer'] . '</p>';
+            unset($_SESSION['res']);
+        }
+        ?>
+
         <h1>Авторизация</h1>
         <form action="<?=PATH . $adminPath?>/login" method="post">
             <label for="login">Логин</label>

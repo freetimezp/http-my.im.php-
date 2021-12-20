@@ -983,3 +983,107 @@ Fault: 12-12-2021 15:43:19 - Ошибка в SQL запросе: SELECT goods.*,
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 20-12-2021 21:34:42 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:34:42'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:36:04 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:36:04'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:36:05 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:36:05'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:36:06 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:36:06'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:36:53 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:36:53'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:12 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:12'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:14 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:14'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:14 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:14'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:15 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:15'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:17 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:17'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:39 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:39'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:39 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:39'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:55 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:55'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:38:56 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:38:56'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:41:35 - Ошибка в SQL запросе: SHOW COLUMNS FROM blocked_access - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:44:35 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:42:21'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:49:45 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:49:40'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:50:50 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:50:50'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:50:51 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:50:51'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:50:52 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:50:52'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:50:59 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:50:59'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:51:00 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:51:00'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:51:01 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:51:01'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:51:12 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:51:12'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:51:13 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:51:13'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 20-12-2021 21:51:15 - Ошибка в SQL запросе: DELETE blocked_access FROM blocked_access  WHERE blocked_access.time<'2021-12-20 18:51:15'  - 1054 Unknown column 'blocked_access.time' in 'where clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

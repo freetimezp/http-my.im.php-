@@ -11,8 +11,8 @@ class UserModel extends BaseModel
     use Singleton;
     use BaseMethods;
 
-    private $cookieName = 'edentifier';
-    private $cookieAdminName = 'edentifier';
+    private $cookieName = 'identifier';
+    private $cookieAdminName = 'WQEngineCache';
 
     private $userData = [];
     private $error;

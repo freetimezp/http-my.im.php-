@@ -23,17 +23,18 @@ class LoginController extends \core\base\controller\BaseController
             $this->redirect(PATH);
         }
 
-        $timeClean = (new \DateTime())->modify('-' . BLOCK_TIME . ' hour')->format('Y-m-d H:i:s');
-
-        $this->model->delete($this->model->getBlockedTable(), [
-            'where' => ['time' => $timeClean],
-            'operand' => ['<']
-        ]);
-
         if($this->isPost()) {
             if(empty($_POST['token']) || $_POST['token'] !== $_SESSION['token']) {
                 exit('Куку охибка :)');
             }
+
+            $timeClean = (new \DateTime())->modify('-' . BLOCK_TIME . ' hour')->format('Y-m-d H:i:s');
+            //$timeClean = (new \DateTime())->modify('-1' . ' seconds')->format('Y-m-d H:i:s');
+
+            $this->model->delete($this->model->getBlockedTable(), [
+                'where' => ['time' => $timeClean],
+                'operand' => ['<']
+            ]);
 
             $ipUser = filter_var(@$_SERVER['HTTP_CLIENT_IP'], FILTER_VALIDATE_IP) ?:
                 (filter_var(@$_SERVER['HTTP_X_FORWARDED_FOR'], FILTER_VALIDATE_IP) ?: @$_SERVER['REMOTE_ADDR']);
@@ -63,7 +64,7 @@ class LoginController extends \core\base\controller\BaseController
 
                     if($trying) {
                         $method = 'edit';
-                        $where['id'] = $ipUser;
+                        $where['ip'] = $ipUser;
                     }
 
                     $this->model->$method($this->model->getBlockedTable(), [
@@ -81,13 +82,14 @@ class LoginController extends \core\base\controller\BaseController
                     }
                 }
             }elseif($trying >= 3) {
+                $this->model->logout();
                 $error = 'Превышено максимальное количество попыток ввода пароля - ' . $ipUser;
             }else{
                 $error = 'Заполните обязательные поля';
             }
 
             $_SESSION['res']['answer'] = $success
-                ? '<div class="success">Добро пожаловать ' . $userData['name'] . '</div>>'
+                ? '<div class="success">Добро пожаловать ' . $userData[0]['name'] . '</div>>'
                 : preg_split('/\s*\-/', $error, 2, PREG_SPLIT_NO_EMPTY)[0];
 
             $this->writeLog($error, 'user_log.txt', 'Access user');

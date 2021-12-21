@@ -42,6 +42,8 @@ abstract class BaseAdmin extends BaseController
             }
         }
 
+        $this->checkAuth(true);
+
         $this->init(true);
         $this->title = 'VG engine';
 

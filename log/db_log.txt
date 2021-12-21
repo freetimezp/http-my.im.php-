@@ -1087,3 +1087,31 @@ Fault: 20-12-2021 21:51:15 - Ошибка в SQL запросе: DELETE blocked_
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 21-12-2021 21:01:56 - Ошибка в SQL запросе: SELECT users.id,users.name FROM users  WHERE users.login='admin' AND users.password='202cb962ac59075b964b07152d234b70'    - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-12-2021 21:30:00 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-12-2021 21:30:31 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-12-2021 21:30:34 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-12-2021 21:30:36 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-12-2021 21:30:40 - Ошибка в SQL запросе: SELECT goods.*,f.name as TABLEfTABLE_student_name,f.content as TABLEfTABLE_content,f.id as TABLEfTABLE_id,filters.id as TABLEfiltersTABLE_id,filters.name as TABLEfiltersTABLE_name,filters.content as TABLEfiltersTABLE_content,filters.visible as TABLEfiltersTABLE_visible,filters.parent_id as TABLEfiltersTABLE_parent_id,filters.menu_position as TABLEfiltersTABLE_menu_position FROM goods LEFT JOIN goods_filters ON goods.id=goods_filters.teachers LEFT JOIN filters f ON goods_filters.students=f.id LEFT JOIN filters ON f.parent_id=filters.id WHERE goods.id IN ('42','43')  ORDER BY goods.id DESC  - 1054 Unknown column 'goods_filters.teachers' in 'on clause'
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+
+Fault: 21-12-2021 21:37:12 - Ошибка в SQL запросе: SHOW COLUMNS FROM pages - 2006 MySQL server has gone away
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

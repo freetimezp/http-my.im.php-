@@ -17,12 +17,12 @@
         <div class="header__wrapper">
 
             <div class="header__logo">
-                <a href="index.html"><img src="assets/img/Logo.svg" alt="магазин инженерной сантехники"></a>
+                <a href="../../../index.php"><img src="../assets/img/Logo.svg" alt="магазин инженерной сантехники"></a>
                 <span>АвтоЗапчасти</span>
             </div>
             <div class="header__topbar">
                 <div class="header__contacts">
-                    <div><a href="mailto:test@test.ru">test@test.ru</a></div>
+                    <div><a href="../../../index.php">test@test.ru</a></div>
                     <div><a href="tel:+74842750204">+7 (4842) 75-02-04</a></div>
                     <div><a class="js-callback">Связаться с нами</a></div>
                 </div>
@@ -96,17 +96,17 @@
                         <span class="burger-desc">меню</span>
                     </div>
                 </div>
-                <div class="header__sidebar_btn"><a href="index.html#">
+                <div class="header__sidebar_btn"><a href="../../../index.php">
                         <svg class="inline-svg-icon svg-instagram">
                             <use xlink:href="assets/img/icons.svg#instagram"></use>
                         </svg>
                     </a></div>
-                <div class="header__sidebar_btn"><a href="index.html#">
+                <div class="header__sidebar_btn"><a href="../../../index.php">
                         <svg class="inline-svg-icon svg-vk">
                             <use xlink:href="assets/img/icons.svg#vk"></use>
                         </svg>
                     </a></div>
-                <div class="header__sidebar_btn"><a href="index.html#">
+                <div class="header__sidebar_btn"><a href="../../../index.php">
                         <svg class="inline-svg-icon svg-facebook">
                             <use xlink:href="assets/img/icons.svg#facebook"></use>
                         </svg>

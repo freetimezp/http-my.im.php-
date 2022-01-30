@@ -12,7 +12,9 @@ class IndexController extends BaseUser {
     protected function inputData()    {
         parent::inputData();
 
-        $res = $this->img();
+        $alias = '';
+
+        $res = $this->alias(['catalog' => 'auto', 'vasya' => 'petya'], ['page' => 1, 'order' => 'desc']);
 
         $a = 1;
     }

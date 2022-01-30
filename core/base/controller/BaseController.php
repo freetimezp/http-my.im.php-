@@ -88,8 +88,7 @@ abstract class BaseController
                 $template = ADMIN_TEMPLATE;
             }
 
-            $path = $template . explode('controller', strtolower($class->getShortName()))[0];
-
+            $path = $template . $this->getController();
         }
 
         ob_start();

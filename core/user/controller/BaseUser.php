@@ -9,9 +9,18 @@ abstract class BaseUser extends \core\base\controller\BaseController
     protected $model;
     protected $table;
 
+    protected $set;
+
     protected function inputData() {
         $this->init();
         !$this->model && $this->model = Model::instance();
+
+        $this->set = $this->model->get('settings', [
+            'order' => ['id'],
+            'limit' => 1
+        ]);
+
+        $this->set && $this->set = $this->set[0];
     }
 
     protected function outputData() {

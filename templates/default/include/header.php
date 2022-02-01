@@ -17,13 +17,13 @@
         <div class="header__wrapper">
 
             <div class="header__logo">
-                <a href="../../../index.php"><img src="../assets/img/Logo.svg" alt="магазин инженерной сантехники"></a>
-                <span>АвтоЗапчасти</span>
+                <a href="<?=$this->alias();?>"><img src="<?=$this->img($this->set['img']);?>" alt="<?=$this->set['name'];?>"></a>
+                <span><?=$this->set['name'];?></span>
             </div>
             <div class="header__topbar">
                 <div class="header__contacts">
-                    <div><a href="../../../index.php">test@test.ru</a></div>
-                    <div><a href="tel:+74842750204">+7 (4842) 75-02-04</a></div>
+                    <div><a href="mailto:<?=$this->set['email'];?>"><?=$this->set['email'];?></a></div>
+                    <div><a href="tel:<?=preg_replace('/[^+\d]/', '', $this->set['phone']);?>"><?=$this->set['phone'];?></a></div>
                     <div><a class="js-callback">Связаться с нами</a></div>
                 </div>
                 <nav class="header__nav">

@@ -47,14 +47,14 @@ class Settings
 
     private $projectTables = [
         'articles' => ['name' => 'Статьи'],
-        'pages' => ['name' => 'Страницы'],
         'goods' => ['name' => 'Товары', 'img' => 'pages.png'],
-        'filters' => ['name' => 'Фильтры', 'img' => 'pages.png']
+        'filters' => ['name' => 'Фильтры', 'img' => 'pages.png'],
+        'settings' => ['name' => 'Настройки системы']
     ];
 
     private $templateArr = [
-        'text' => ['name'],
-        'textarea' => ['keywords', 'content'],
+        'text' => ['name', 'phone', 'email'],
+        'textarea' => ['keywords', 'content', 'address', 'description', 'address'],
         'radio' => ['visible'],
         'checkboxlist' => ['filters'],
         'select' => ['menu_position', 'parent_id'],
@@ -65,7 +65,12 @@ class Settings
     private $translate = [
         'name' => ['Название', 'Не более 100 символов'],
         'keywords' => ['Ключевые слова', 'Не более 70 символов'],
-        'content' => []
+        'content' => ['Описание'],
+        'description' => ['SEO описание'],
+        'phone' => ['Телефон'],
+        'email' => ['Электронная почта'],
+        'address' => ['Адрес']
+
     ];
 
     private $fileTemplates = ['img', 'gallery_img'];

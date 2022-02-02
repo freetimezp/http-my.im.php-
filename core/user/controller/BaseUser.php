@@ -10,6 +10,7 @@ abstract class BaseUser extends \core\base\controller\BaseController
     protected $table;
 
     protected $set;
+    protected $menu;
 
     protected function inputData() {
         $this->init();
@@ -21,6 +22,17 @@ abstract class BaseUser extends \core\base\controller\BaseController
         ]);
 
         $this->set && $this->set = $this->set[0];
+
+        $this->menu['catalog'] = $this->model->get('catalog', [
+            'where' => ['visible' => 1, 'parent_id' => null],
+            'order' => ['menu_position']
+        ]);
+
+        $this->menu['information'] = $this->model->get('information', [
+            'where' => ['visible' => 1, 'show_top_menu' => 1],
+            'order' => ['menu_position']
+
+        ]);
     }
 
     protected function outputData() {

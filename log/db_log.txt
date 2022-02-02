@@ -1123,3 +1123,7 @@ Fault: 07-01-2022 19:26:24 - Ошибка в SQL запросе: SELECT goods.*,
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
 In line 70
 
+Fault: 02-02-2022 21:48:50 - Ошибка в SQL запросе: UPDATE catalog SET menu_position = menu_position - 1 WHERE parent_id IS NULL  AND menu_position <= 2 AND menu_position >  - 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\model\BaseModel.php
+In line 70
+

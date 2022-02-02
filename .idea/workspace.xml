@@ -24,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base/settings/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base/settings/Settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/user/controller/BaseUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/user/controller/BaseUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/db_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/user_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log/user_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/default/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/include/header.php" afterDir="false" />
@@ -98,6 +99,7 @@
       <workItem from="1628704848471" duration="125000" />
       <workItem from="1643563219632" duration="3673000" />
       <workItem from="1643734624531" duration="4211000" />
+      <workItem from="1643821570076" duration="3191000" />
     </task>
     <servers />
   </component>
@@ -169,10 +171,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="699" y="376" width="316" height="260" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1643741499843" />
-    <state x="614" y="248" width="539" height="457" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1643741533781">
+    <state x="756" y="330" width="408" height="376" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1643827036038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="248" width="539" height="457" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643741533781" />
+    <state x="756" y="330" width="408" height="376" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643827036038" />
+    <state x="614" y="248" width="539" height="457" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1643828212571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="248" width="539" height="457" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643828212571" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

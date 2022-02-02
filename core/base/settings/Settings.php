@@ -46,16 +46,18 @@ class Settings
     private $formTemplates = PATH . 'core/admin/view/include/form_templates/';
 
     private $projectTables = [
-        'articles' => ['name' => 'Статьи'],
+        'catalog' => ['name' => 'Каталог'],
         'goods' => ['name' => 'Товары', 'img' => 'pages.png'],
         'filters' => ['name' => 'Фильтры', 'img' => 'pages.png'],
+        'articles' => ['name' => 'Статьи'],
+        'information' => ['name' => 'Информация'],
         'settings' => ['name' => 'Настройки системы']
     ];
 
     private $templateArr = [
-        'text' => ['name', 'phone', 'email'],
+        'text' => ['name', 'phone', 'email', 'alias'],
         'textarea' => ['keywords', 'content', 'address', 'description', 'address'],
-        'radio' => ['visible'],
+        'radio' => ['visible', 'show_top_menu'],
         'checkboxlist' => ['filters'],
         'select' => ['menu_position', 'parent_id'],
         'img' => ['img', 'main_img'],
@@ -69,19 +71,21 @@ class Settings
         'description' => ['SEO описание'],
         'phone' => ['Телефон'],
         'email' => ['Электронная почта'],
-        'address' => ['Адрес']
-
+        'address' => ['Адрес'],
+        'alias' => ['Ссылка ЧПУ'],
+        'show_top_menu' => ['Показывать в верхнем меню']
     ];
 
     private $fileTemplates = ['img', 'gallery_img'];
 
     private $radio = [
-        'visible' => ['НЕТ', 'ДА', 'default' => 'ДА']
+        'visible' => ['НЕТ', 'ДА', 'default' => 'ДА'],
+        'show_top_menu' => ['НЕТ', 'ДА', 'default' => 'ДА']
     ];
 
     private $rootItems = [
         'name' => 'Корневая',
-        'tables' => ['articles', 'filters']
+        'tables' => ['articles', 'filters', 'catalog']
     ];
 
     private $manyToMany = [

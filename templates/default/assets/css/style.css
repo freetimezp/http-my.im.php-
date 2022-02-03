@@ -56,6 +56,10 @@ img {
 	max-width: 100%
 }
 
+img.social {
+	max-width: 50%
+}
+
 *, *:after, *:before {
 	box-sizing: border-box
 }

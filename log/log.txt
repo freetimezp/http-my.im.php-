@@ -11866,3 +11866,1483 @@ Fault: 02-02-2022 22:16:54 - Class core\user\controller\Favicon.icoController do
 file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
 In line 49
 
+Fault: 03-02-2022 19:43:45 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 19:43:49 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 19:51:21 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 19:51:21 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 19:51:22 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 19:51:22 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 19:51:22 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 19:51:22 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 19:51:23 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:18 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:18 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:18 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:18 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:19 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:19 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:20 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:21 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:23 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:23 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:23 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:23 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:23 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:23 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:24 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:25 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:27 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:27 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:28 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:28 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:28 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:28 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:28 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:32 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:32 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:32 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:32 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:32 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:07:32 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:33 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:38 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:42 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:44 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:46 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:07:59 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:08:00 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:08:08 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:08:09 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:08:12 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:08:12 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:08:12 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:08:12 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:08:12 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:08:12 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:08:13 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:09:59 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:09:59 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:10:00 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:10:00 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:10:00 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:10:00 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:10:01 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:10:09 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:10:16 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:10:17 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:10:25 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:11:27 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:12:56 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:12:57 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:12:57 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:12:57 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:12:57 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:12:57 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:12:57 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:12:58 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:15:33 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:15:33 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:15:33 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:15:33 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:15:33 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:15:33 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:15:34 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:20:47 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:20:49 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:20:55 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:21:56 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:24:04 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:24:39 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:28:12 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:28:15 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:28:21 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:28:21 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:28:22 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:28:22 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:28:22 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:28:22 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:28:22 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:28:55 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:29:41 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:29:44 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:30:02 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:30:55 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:30:56 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:31:17 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:31:20 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:31:22 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:35:57 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:35:57 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:02 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:02 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:02 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:02 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:03 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:03 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:04 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:04 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:04 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:04 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:04 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:04 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:04 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:05 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:37 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:37 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:37 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:37 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:38 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:38 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:38 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:38 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:38 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:38 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:38 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:38 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:40 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:40 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:40 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:41 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:41 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:41 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:41 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:41 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:56 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:56 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:56 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:56 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:56 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:56 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:56 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:41:56 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:41:56 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:42:03 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:42:03 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:43:26 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:43:26 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:43:27 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:43:27 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:43:27 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:43:27 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:43:27 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:43:27 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:43:28 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:06 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:45:06 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:06 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:45:06 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:06 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:45:06 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:07 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:54 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:45:54 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:45:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:45:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:45:55 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:18 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:25 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:27 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:46:27 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:27 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:46:27 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:27 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:46:27 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:27 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:55 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:57 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:46:57 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:57 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:46:57 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:57 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:46:57 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:46:58 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:47:16 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:47:18 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:47:18 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:47:18 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:47:18 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:47:18 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:47:18 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:47:19 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:47:27 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:47:27 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:33 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:33 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:34 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:34 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:34 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:34 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:34 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:35 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:35 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:35 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:35 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:35 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:35 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:35 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:38 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:38 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:38 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:38 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:38 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:38 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:39 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:51 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:51 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:51 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:51 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:51 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:51 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:52 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:50:57 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:50:57 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:23 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:23 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:23 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:23 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:23 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:23 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:23 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:23 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:24 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:28 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:28 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:28 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:28 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:28 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:28 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:29 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:51:29 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:51:29 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:52:20 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:52:20 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:52:20 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:52:20 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:52:20 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:52:20 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:52:21 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:52:21 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:52:22 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:53:39 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:53:39 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:53:39 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:53:39 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:53:40 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:53:40 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:53:41 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:53:41 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:53:41 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:15 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:15 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:15 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:15 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:15 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:15 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:15 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:15 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:16 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:55 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:54:55 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:54:56 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:04 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:04 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:04 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:04 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:05 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:05 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:05 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:05 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:06 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:15 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:15 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:15 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:15 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:15 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:15 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:16 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:16 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:17 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 22:56:47 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 22:56:47 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:09 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:09 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:09 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:09 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:09 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:09 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:09 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:09 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:10 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:16 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:16 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:17 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:17 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:17 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:17 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:17 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:17 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:18 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:45 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:45 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:45 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:45 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:45 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:45 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:45 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:00:45 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:00:46 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:01:07 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:01:07 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:01:07 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:01:07 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:01:07 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:01:07 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:01:07 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:01:07 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:01:09 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:44 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:44 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:45 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:45 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:45 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:45 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:45 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:45 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:46 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:55 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:55 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:56 - Не верное имя файла для подключения: core/user/controller/AssetsController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:56 - Class core\user\controller\AssetsController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:56 - Не верное имя файла для подключения: core/user/controller/TemplatesController
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\settings\internal_settings.php
+In line 68
+
+Fault: 03-02-2022 23:02:56 - Class core\user\controller\TemplatesController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+
+Fault: 03-02-2022 23:02:57 - Class core\user\controller\Favicon.icoController does not exist
+file C:\openserver\OSPanel\domains\my.im.php\public_html\core\base\controller\BaseController.php
+In line 49
+

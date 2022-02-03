@@ -51,11 +51,12 @@ class Settings
         'filters' => ['name' => 'Фильтры', 'img' => 'pages.png'],
         'articles' => ['name' => 'Статьи'],
         'information' => ['name' => 'Информация'],
+        'socials' => ['name' => 'Социальные сети'],
         'settings' => ['name' => 'Настройки системы']
     ];
 
     private $templateArr = [
-        'text' => ['name', 'phone', 'email', 'alias'],
+        'text' => ['name', 'phone', 'email', 'alias', 'external_alias'],
         'textarea' => ['keywords', 'content', 'address', 'description', 'address'],
         'radio' => ['visible', 'show_top_menu'],
         'checkboxlist' => ['filters'],
@@ -73,6 +74,10 @@ class Settings
         'email' => ['Электронная почта'],
         'address' => ['Адрес'],
         'alias' => ['Ссылка ЧПУ'],
+        'external_alias' => ['Внешняя ссылка'],
+        'img' => ['Изображение'],
+        'visible' => ['Видимость'],
+        'menu_position' => ['Позиция в списке'],
         'show_top_menu' => ['Показывать в верхнем меню']
     ];
 

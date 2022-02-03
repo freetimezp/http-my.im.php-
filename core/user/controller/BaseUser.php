@@ -12,6 +12,10 @@ abstract class BaseUser extends \core\base\controller\BaseController
     protected $set;
     protected $menu;
 
+    /*Проектные свойства*/
+    protected $socials;
+    /*Проектные свойства*/
+
     protected function inputData() {
         $this->init();
         !$this->model && $this->model = Model::instance();
@@ -31,7 +35,11 @@ abstract class BaseUser extends \core\base\controller\BaseController
         $this->menu['information'] = $this->model->get('information', [
             'where' => ['visible' => 1, 'show_top_menu' => 1],
             'order' => ['menu_position']
+        ]);
 
+        $this->socials = $this->model->get('socials', [
+            'where' => ['visible' => 1],
+            'order' => ['menu_position']
         ]);
     }
 

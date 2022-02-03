@@ -46,7 +46,7 @@
                         <?php if(!empty($this->menu['information'])): ?>
                             <?php foreach ($this->menu['information'] as $item): ?>
                                 <li class="">
-                                    <a href="<?=$this->alias(['information' => $item['alias']]);?>"><span><?=$item['name']?></span></a>
+                                    <a href="<?=$this->alias(['information' => $item['alias']]);?>"><span><?=$item['name'];?></span></a>
                                     <ul class="header__nav-sublist">
 
                                     </ul>
@@ -75,9 +75,9 @@
             <div class="overlay"></div>
             <div class="header__sidebar">
                 <div class="header__sidebar_btn">
-                    <a href="http://somesite.ru/cart/">
+                    <a href="<?=$this->alias('cart');?>">
                         <svg class="inline-svg-icon svg-basket">
-                            <use xlink:href="assets/img/icons.svg#basket"></use>
+                            <use href="<?=PATH . TEMPLATE?>assets/img/icons.svg#basket"></use>
                         </svg>
                     </a>
                 </div>
@@ -87,21 +87,17 @@
                         <span class="burger-desc">меню</span>
                     </div>
                 </div>
-                <div class="header__sidebar_btn"><a href="../../../index.php">
-                        <svg class="inline-svg-icon svg-instagram">
-                            <use xlink:href="assets/img/icons.svg#instagram"></use>
-                        </svg>
-                    </a></div>
-                <div class="header__sidebar_btn"><a href="../../../index.php">
-                        <svg class="inline-svg-icon svg-vk">
-                            <use xlink:href="assets/img/icons.svg#vk"></use>
-                        </svg>
-                    </a></div>
-                <div class="header__sidebar_btn"><a href="../../../index.php">
-                        <svg class="inline-svg-icon svg-facebook">
-                            <use xlink:href="assets/img/icons.svg#facebook"></use>
-                        </svg>
-                    </a></div>
+
+                <?php if(!empty($this->socials)): ?>
+                    <?php foreach ($this->socials as $item): ?>
+                        <div class="header__sidebar_btn">
+                            <a href="<?=$this->alias($item['external_alias']); ?>">
+                                <img class="social" src="<?=$this->img($item['img']); ?>" alt="<?=$item['name']; ?>">
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+
             </div>
             <div class="header__menu _hidden">
                 <div class="header__menu_close close_modal"></div>
